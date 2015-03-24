@@ -1,21 +1,44 @@
 \BOOKMARK [1][-]{Doc-Start}{\315ndice}{}% 1
-\BOOKMARK [1][-]{section.1}{Motivaci\363n}{}% 2
+\BOOKMARK [1][-]{section.1}{Motivaci\363n: \277Por que estudiar el Browser?}{}% 2
 \BOOKMARK [1][-]{section.2}{Contribuciones}{}% 3
 \BOOKMARK [1][-]{section.3}{Estructura del Documento}{}% 4
 \BOOKMARK [1][-]{section.4}{Definiciones}{}% 5
 \BOOKMARK [2][-]{subsection.4.1}{Vulnerabilidades, Debilidades, Amenazas y Ataques}{section.4}% 6
-\BOOKMARK [2][-]{subsection.4.2}{Browser: HTML, DOM y Javascript}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.2}{Browser: HTML, DOM, CSS, Javascript y Otros}{section.4}% 7
 \BOOKMARK [3][-]{subsubsection.4.2.1}{HyperText Markup Language, HTML}{subsection.4.2}% 8
-\BOOKMARK [3][-]{subsubsection.4.2.2}{Document Object Model, DOM}{subsection.4.2}% 9
-\BOOKMARK [3][-]{subsubsection.4.2.3}{Javascript}{subsection.4.2}% 10
-\BOOKMARK [1][-]{section.5}{Ataques en el Browser}{}% 11
-\BOOKMARK [1][-]{section.6}{Mecanismos de Seguridad en el Browser}{}% 12
-\BOOKMARK [2][-]{subsection.6.1}{Same Origin Policy, SOP}{section.6}% 13
-\BOOKMARK [2][-]{subsection.6.2}{Cross-Origin Resource Sharing, CORS}{section.6}% 14
-\BOOKMARK [2][-]{subsection.6.3}{CSP}{section.6}% 15
-\BOOKMARK [2][-]{subsection.6.4}{Sandboxing}{section.6}% 16
-\BOOKMARK [2][-]{subsection.6.5}{Otros}{section.6}% 17
-\BOOKMARK [1][-]{section.7}{Conclusiones}{}% 18
-\BOOKMARK [1][-]{section.8}{Trabajo Futuro}{}% 19
-\BOOKMARK [1][-]{section.8}{Bibliograf\355a}{}% 20
-\BOOKMARK [1][-]{appendix.Alph1}{Anexos}{}% 21
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Extensible Markup Language, XML}{subsection.4.2}% 9
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Document Object Model, DOM}{subsection.4.2}% 10
+\BOOKMARK [3][-]{subsubsection.4.2.4}{Cascading Style Sheets, CSS}{subsection.4.2}% 11
+\BOOKMARK [3][-]{subsubsection.4.2.5}{Javascript}{subsection.4.2}% 12
+\BOOKMARK [3][-]{subsubsection.4.2.6}{Asynchronous JavaScript And XML, Ajax}{subsection.4.2}% 13
+\BOOKMARK [3][-]{subsubsection.4.2.7}{Adobe Flash}{subsection.4.2}% 14
+\BOOKMARK [3][-]{subsubsection.4.2.8}{Render Engine}{subsection.4.2}% 15
+\BOOKMARK [3][-]{subsubsection.4.2.9}{User and X Browsing}{subsection.4.2}% 16
+\BOOKMARK [1][-]{section.5}{Riesgos al Navegar y Ataques en el Browser}{}% 17
+\BOOKMARK [1][-]{section.6}{Mecanismos de Seguridad en el Browser}{}% 18
+\BOOKMARK [2][-]{subsection.6.1}{Same Origin Policy, SOP}{section.6}% 19
+\BOOKMARK [2][-]{subsection.6.2}{Cross-Origin Resource Sharing, CORS}{section.6}% 20
+\BOOKMARK [2][-]{subsection.6.3}{CSP}{section.6}% 21
+\BOOKMARK [2][-]{subsection.6.4}{Sandboxing}{section.6}% 22
+\BOOKMARK [2][-]{subsection.6.5}{HTTP Headers}{section.6}% 23
+\BOOKMARK [2][-]{subsection.6.6}{Encoding}{section.6}% 24
+\BOOKMARK [2][-]{subsection.6.7}{Sanitization}{section.6}% 25
+\BOOKMARK [2][-]{subsection.6.8}{Otros}{section.6}% 26
+\BOOKMARK [1][-]{section.7}{Componentes del Browser}{}% 27
+\BOOKMARK [2][-]{subsection.7.1}{Render Engine}{section.7}% 28
+\BOOKMARK [1][-]{section.8}{Ethical Hacking en el Browser}{}% 29
+\BOOKMARK [2][-]{subsection.8.1}{Ataques de Ingenier\355a Social}{section.8}% 30
+\BOOKMARK [2][-]{subsection.8.2}{WebGoat}{section.8}% 31
+\BOOKMARK [2][-]{subsection.8.3}{BeeF y Metasploit}{section.8}% 32
+\BOOKMARK [1][-]{section.9}{Arquitectura de Referencia del Browser}{}% 33
+\BOOKMARK [2][-]{subsection.9.1}{Definici\363n}{section.9}% 34
+\BOOKMARK [2][-]{subsection.9.2}{Construcci\363n}{section.9}% 35
+\BOOKMARK [1][-]{section.10}{Formulaci\363n de Patrones de Ataque}{}% 36
+\BOOKMARK [2][-]{subsection.10.1}{Ataque 1: }{section.10}% 37
+\BOOKMARK [2][-]{subsection.10.2}{Ataque 2: }{section.10}% 38
+\BOOKMARK [2][-]{subsection.10.3}{Ataque 3:}{section.10}% 39
+\BOOKMARK [1][-]{section.11}{Discusi\363n de Patrones de Mal uso existentes}{}% 40
+\BOOKMARK [1][-]{section.12}{Conclusiones}{}% 41
+\BOOKMARK [1][-]{section.13}{Trabajo Futuro}{}% 42
+\BOOKMARK [1][-]{section.13}{Bibliograf\355a}{}% 43
+\BOOKMARK [1][-]{appendix.Alph1}{Anexos}{}% 44

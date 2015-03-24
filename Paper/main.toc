@@ -1,22 +1,45 @@
 \select@language {spanish}
 \contentsline {section}{\'Indice}{3}{Doc-Start}
-\contentsline {section}{\numberline {1}Motivaci\IeC {\'o}n}{4}{section.1}
-\contentsline {section}{\numberline {2}Contribuciones}{4}{section.2}
-\contentsline {section}{\numberline {3}Estructura del Documento}{4}{section.3}
-\contentsline {section}{\numberline {4}Definiciones}{4}{section.4}
-\contentsline {subsection}{\numberline {4.1}Vulnerabilidades, Debilidades, Amenazas y Ataques}{4}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Browser: HTML, DOM y Javascript}{4}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}HyperText Markup Language, HTML}{4}{subsubsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2}Document Object Model, DOM}{4}{subsubsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.3}Javascript}{4}{subsubsection.4.2.3}
-\contentsline {section}{\numberline {5}Ataques en el Browser}{4}{section.5}
-\contentsline {section}{\numberline {6}Mecanismos de Seguridad en el Browser}{4}{section.6}
-\contentsline {subsection}{\numberline {6.1}Same Origin Policy, SOP}{4}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Cross-Origin Resource Sharing, CORS}{4}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}CSP}{5}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Sandboxing}{5}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}Otros}{5}{subsection.6.5}
-\contentsline {section}{\numberline {7}Conclusiones}{5}{section.7}
-\contentsline {section}{\numberline {8}Trabajo Futuro}{5}{section.8}
-\contentsline {section}{Bibliograf\'{\i }a}{5}{section.8}
-\contentsline {section}{\numberline {A}Anexos}{5}{appendix.Alph1}
+\contentsline {section}{\numberline {1}Motivaci\IeC {\'o}n: \IeC {\textquestiondown }Por que estudiar el Browser?}{5}{section.1}
+\contentsline {section}{\numberline {2}Contribuciones}{5}{section.2}
+\contentsline {section}{\numberline {3}Estructura del Documento}{5}{section.3}
+\contentsline {section}{\numberline {4}Definiciones}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}Vulnerabilidades, Debilidades, Amenazas y Ataques}{6}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Browser: HTML, DOM, CSS, Javascript y Otros}{6}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}HyperText Markup Language, HTML}{6}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Extensible Markup Language, XML}{6}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Document Object Model, DOM}{6}{subsubsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.4}Cascading Style Sheets, CSS}{6}{subsubsection.4.2.4}
+\contentsline {subsubsection}{\numberline {4.2.5}Javascript}{6}{subsubsection.4.2.5}
+\contentsline {subsubsection}{\numberline {4.2.6}Asynchronous JavaScript And XML, Ajax}{6}{subsubsection.4.2.6}
+\contentsline {subsubsection}{\numberline {4.2.7}Adobe Flash}{6}{subsubsection.4.2.7}
+\contentsline {subsubsection}{\numberline {4.2.8}Render Engine}{6}{subsubsection.4.2.8}
+\contentsline {subsubsection}{\numberline {4.2.9}User and X Browsing}{6}{subsubsection.4.2.9}
+\contentsline {section}{\numberline {5}Riesgos al Navegar y Ataques en el Browser}{6}{section.5}
+\contentsline {section}{\numberline {6}Mecanismos de Seguridad en el Browser}{6}{section.6}
+\contentsline {subsection}{\numberline {6.1}Same Origin Policy, SOP}{6}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Cross-Origin Resource Sharing, CORS}{6}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}CSP}{6}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Sandboxing}{6}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}HTTP Headers}{6}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}Encoding}{6}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}Sanitization}{6}{subsection.6.7}
+\contentsline {subsection}{\numberline {6.8}Otros}{6}{subsection.6.8}
+\contentsline {section}{\numberline {7}Componentes del Browser}{7}{section.7}
+\contentsline {subsection}{\numberline {7.1}Render Engine}{7}{subsection.7.1}
+\contentsline {section}{\numberline {8}Ethical Hacking en el Browser}{7}{section.8}
+\contentsline {subsection}{\numberline {8.1}Ataques de Ingenier\IeC {\'\i }a Social}{7}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}WebGoat}{7}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}BeeF y Metasploit}{7}{subsection.8.3}
+\contentsline {section}{\numberline {9}Arquitectura de Referencia del Browser}{8}{section.9}
+\contentsline {subsection}{\numberline {9.1}Definici\IeC {\'o}n}{8}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Construcci\IeC {\'o}n}{8}{subsection.9.2}
+\contentsline {section}{\numberline {10}Formulaci\IeC {\'o}n de Patrones de Ataque}{8}{section.10}
+\contentsline {subsection}{\numberline {10.1}Ataque 1: }{8}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Ataque 2: }{8}{subsection.10.2}
+\contentsline {subsection}{\numberline {10.3}Ataque 3:}{8}{subsection.10.3}
+\contentsline {section}{\numberline {11}Discusi\IeC {\'o}n de Patrones de Mal uso existentes}{8}{section.11}
+\contentsline {section}{\numberline {12}Conclusiones}{9}{section.12}
+\contentsline {section}{\numberline {13}Trabajo Futuro}{9}{section.13}
+\contentsline {section}{Bibliograf\'{\i }a}{9}{section.13}
+\contentsline {section}{\numberline {A}Anexos}{9}{appendix.Alph1}
