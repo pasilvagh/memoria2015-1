@@ -1,0 +1,33 @@
+Objetivo: Sistematizar, Organizar, Clasificar el conocimiento que hay respecto de amenazas y defensas en el Web Browser. De esta manera lo que se logra es encapsular lo aprendido para así poder usarlo para enseñar a otros de una manera más fácil y entendible.
+
+En el desarrollo se va a tener que organizar y luego presentar de alguna forma.
+
+Estado del Arte va a tener muchos conceptos relacionados con el browser:
+-funcionalidades
+	-comunicación (HTTP, HTTPS, SSL)
+	-información que guarda el Browser
+	-interpretación del código móvil.
+
+-componentes
+
+
+
+
+
+Camino a seguir:
+Memoria: Estado del Are, organizar la información, conclusiones.
+
+->Esas conclusiones van a ser una evaluación.
+->Siguiente etapa: formulación de la propuesta de Tesis.
+
+Propuesta de Tesis hacerla luego de tener las conclusiones de memoria.
+	->Puedo darme de cosas que faltan por hacer.
+	->Levantar hipótesis a partir de preguntas de investigación
+		->¿Cuáles son los métodos más adecuados para especificar a las audiencias (por definir)?
+			->ex: algunos más adecuados para novatos y otros para expertos.
+
+Tesis: Estado del Arte
+
+Estado del Arte de la Tesis:
+-Ver otras formas de documentar patrones, cuáles son. Cuáles son más adecuadas, para que determinadas audiencias entiendan mejor los ataques.
+	->En base a esto, poder ver el GRADO DE ENTENDIMIENTO que se logra con diversas técnicas
