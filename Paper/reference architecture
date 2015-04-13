@@ -1,0 +1,8 @@
+reference architecture
+
+by the Open Security Architecture:
+
+Reference architecture is:
+In contrast a “Reference Architecture” is considered something that describes a “to be” state and should reflect accepted best practices.
+
+-> en el caso del Browser, son los componentes y cómo estos están relacionados. De acuerdo a los años de experiencia que han ganado, la mayoría de los browser tienen estructuras muy similares: multi modular.
