@@ -10,9 +10,17 @@ Karen~M Goertzel, Theodore Winograd, Holly~L McKinley, Lyndon~J Oh, Michael
 IEEE~Cyber Security.
 \newblock Center for secure design.
 
+\bibitem{cve}
+The~MITRE Coporation.
+\newblock Common vulnerabilities and exposures.
+
 \bibitem{socEngineeering}
 Jeremiah Talamantes.
 \newblock The social engineer's playbook.
+
+\bibitem{cert}
+CERT's~Podcasts for Bussiness Leaders (The Software Engineering~Institute).
+\newblock Early identification reduces total cost (segment).
 
 \bibitem{interCoursera}
 Mike Hicks.
@@ -24,5 +32,9 @@ Eduardo Fernandez-Buglioni.
 \newblock {\em Security patterns in practice: designing secure architectures
   using software patterns}.
 \newblock John Wiley \& Sons, 2013.
+
+\bibitem{htmlSpec}
+W3C~Working Group.
+\newblock Html5 specification.
 
 \end{thebibliography}

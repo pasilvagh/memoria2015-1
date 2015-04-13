@@ -1,6 +1,18 @@
 \chapter{Estado del Arte: El Web Browser}
 \label{chap:chap2}
 
+
+\section{Organizaciones}
+\label{chap:Orgs}
+
+\subsection{OWASP}
+Desde el 2066 la Open Web Application Security Project ha estado entregando pautas de còmo desarrollar aplicaciones web, en un ambiente que constantemente está cambiando. Su objetivo principal es buscar y combatir las causas de inseguridad en el desarrollo de Software, proporcionando una gran cantidad de documentación y herramientas aquellos que lo necesiten y no sean expertos en seguridad. Para lograr su cometido, todos los años la OWASP entrega una lista de los \textbf{Riesgos más críticos} sobre la seguridad de las Aplicaciones Web.
+
+\subsection{IEEE CSD}
+
+%\subsection{}
+
+
 \section{Same Origin Policy}
 \label{chap:SOP}
 
@@ -11,8 +23,10 @@ Este importante concepto nace a partir del Modelo de Seguridad detrás de una Ap
 
 %Ver libro de Browser hacker handbook
 
-\section{HTML:}
+\section{HTML: HyperText Markup Language}
 \label{chap:HTML}
+HTML \cite{htmlSpec} es conocido por ser un \textit{Simple Markup Language} o lenguage de marcado simple, usado principalmente para crear documentos de hypertextos que son posibles de portar desde una plataforma a otra, sin problemas de compatibilidad. Un documento HTML sigue el estandar dado por SGML o \textit{Standard Generalized Markup Language}, que entrega una semántica apropiada para representar una gran variedad de información y aplicaciones. Un documento HTML consiste de un árbol de elementos y texto, cada uno de esos elementos es denotado por un tag inicial y uno final; estos tags pueden ir aninados y la idea es no se superponen entre ellos. Un HTML User Agent o Browser consume el HTML y lo parsea para crear un árbol DOM, que es la representación en memoria del documento HTML.
+Para poder crear una Aplicación interactiva y segura con HTML, es necesario evadir la creación de vulnerabilidades por donde los atacantes podrían comprometer la integridad del sitio o del usuario que descarga el recurso HTML del sitio atacado. Típicos errores que deben ser evitados cuando se usa scripting con HTML, es que los scripts en HTML tienen una semántica run to completion, esto quiere decir que el browser ejecutará el script mucho antes de que se realice el parsing del documento o gatillar un evento; este tipo de comportamiento es el que los atacantes aprovechan para realizar sus ataques.
 
 \section{Webworkers}
 
