@@ -1,7 +1,26 @@
 \begin{thebibliography}{1}
 
-\bibitem{ref1}
-E.~Fernandez-Buglioni.
+\bibitem{goertzel2007software}
+Karen~M Goertzel, Theodore Winograd, Holly~L McKinley, Lyndon~J Oh, Michael
+  Colon, Thomas McGibbon, Elaine Fedchak, and Robert Vienneau.
+\newblock Software security assurance: A state-of-art report (sar).
+\newblock Technical report, DTIC Document, 2007.
+
+\bibitem{ieeecsd}
+IEEE~Cyber Security.
+\newblock Center for secure design.
+
+\bibitem{socEngineeering}
+Jeremiah Talamantes.
+\newblock The social engineer's playbook.
+
+\bibitem{interCoursera}
+Mike Hicks.
+\newblock Interview to \textbf{Kevin Haley} (from \textbf{Symantec}), 2014.
+\newblock Mike Hicks (Profesor of Software Security course in Coursera.org).
+
+\bibitem{fernandez2013security}
+Eduardo Fernandez-Buglioni.
 \newblock {\em Security patterns in practice: designing secure architectures
   using software patterns}.
 \newblock John Wiley \& Sons, 2013.

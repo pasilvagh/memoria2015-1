@@ -1,124 +1,35 @@
-\chapter{Estado del Arte}
+\chapter{Estado del Arte: El Web Browser}
 \label{chap:chap2}
 
-%Definiciones
-\section{Definiciones}
-\label{sec:chap2.1}
+\section{Same Origin Policy}
+\label{chap:SOP}
 
-\subsection{Vulnerabilidades, Debilidades, Amenazas y Ataques}
-\label{sec:chap2.1.1}
-\input{chapters/chap2/vdaa211}
+Este importante concepto nace a partir del Modelo de Seguridad detrás de una Aplicación Web, al mismo tiempo que es el mecanismo más básico que el Browser tiene para protegerse de las amenazas que aparecen en el día a día, haciendo un poco más complicado el trabajo de realizar un \textit{exploit}. \textbf{Same Origin Policy} o \textbf{SOP} define lo que es un \textbf{Origen}, compuesto por el \textit{esquema}, el \textit{host/dominio} y \textit{puerto} de la URL. Esta política permite que un Web Browser aisle los distintos recursos obtenidos por las páginas web y que solo permita la ejecución de \textit{Script} que pertenezcan a un misno \textbf{Origen}. 
 
-
-%\ref{tab:comparacion}.
-
-%\begin{table}[ht!]
-%\centering
-%\begin{tabular}{l p{4cm} p{3.5cm} p{4cm} }
-%\hline\hline
-%Categoría & Características & Tipo de Producto & Vendedores y Productores\\
-%\hline
-%SaaS & Se provee aplicaciones que son accesibles en cualquier momento y lugar. & Aplicaciones y servicios Web (Web2.0) & SalesForce.com(CRM\footnote{Customer relationship management, es para el manejar todas las relaciones que se tienen con los usuarios y potenciales usuarios.}), Clarizen.com(Manejo de Proyectos), Google Documents, Google Mail(Automatización)\\
-%PaaS & Se provee una plataforma para el desarrollo de aplicaciones hospedadas en la nube. & APIs y frameworks de programación; sistema de desarrollo. & Google AppEngine, Microsoft Azure, Manjrasoft Aneka\\
-%IaaS/HaaS & Se provee hardware y almacenamiento virtual, sobre los cuales se puede construir la infraestructura. & Infraestructuras administrativas de máquinas virtuales, Administrador de almacenamiento. & Amazon EC2 y S3, GoGrid, Nirvanix\\
-%\hline\hline
-%\end{tabular}
-%\caption{Clasificación de los Servicios de Computación en Nube \cite{Buyya09cloudbustoolkit}}
-%\label{tab:comparacion}
-%\end{table}
+\textbf{SOP} puede distinguir entre la información que envía y recibe el Web Browser, y solo se aplicará la política a los elementos externos que se soliciten dentro de una página web (recepción de la información). Esta imposibilidad de recibir información de un \textbf{Origen} diferente al del recurso actual, permite disminuir la superficie de ataque y la posibilidad de explotar alguna vulnerabilidad en el sistema donde reside el Browser. Sin embargo, \textbf{SOP} no pone ninguna restricción sobre la información que el usuario puede enviar hacia otros. 
 
 
-\subsection{Browser: HTML, DOM, CSS, Javascript y Otros}
-\label{sec:chap2.1.2}
-\input{chapters/chap2/webb212}
+%Ver libro de Browser hacker handbook
 
-\subsubsection{HyperText Markup Language, HTML}
-\label{sec:chap2.1.2.1}
-\input{chapters/chap2/html2121}
+\section{HTML:}
+\label{chap:HTML}
 
-\subsubsection{Extensible Markup Language, XML}
-\label{sec:chap2.1.2.2}
-\input{chapters/chap2/xml2122}
+\section{Webworkers}
 
-\subsubsection{Document Object Model, DOM}
-\label{sec:chap2.1.2.3}
-\input{chapters/chap2/dom2123}
+\section{}
 
-\subsubsection{Cascading Style Sheets, CSS}
-\label{sec:chap2.1.2.4}
-\input{chapters/chap2/css2124}
+\section{HTTP}
+\label{chap:HTTP}
 
-\subsubsection{Javascript}
-\label{sec:chap2.1.2.5}
-\input{chapters/chap2/javascript2125}
+\subsection{Comunicación en HTTP}
+\label{chap:comunHTTP}
 
-\subsubsection{Asynchronous JavaScript And XML, Ajax}
-\label{sec:chap2.1.2.6}
-\input{chapters/chap2/ajax2126}
+\subsubsection{postMessage}
+\label{chap:postmessage}
 
-\subsubsection{Adobe Flash}
-\label{sec:chap2.1.2.7}
-\input{chapters/chap2/flash2127}
+\subsubsection{XMLHttpRequest}
+\label{XMLHR}
 
-\subsubsection{Render Engine}
-\label{sec:chap2.1.2.8}
-\input{chapters/chap2/render2128}
+\subsubsection{WebSockets}
+\label{WebSockets}
 
-\subsubsection{User and X Browsing}
-\label{sec:chap2.1.2.9}
-\input{chapters/chap2/browsing2129}
-
-
-%Otras secciones
-\section{Riesgos al Navegar y Ataques en el Browser}
-\label{sec:chap2.2}
-\input{chapters/chap2/att22}
-
-%Mecanismos de Defensa
-\section{Mecanismos de Seguridad en el Browser}
-\label{sec:chap2.3}
-\input{chapters/chap2/msb23}
-
-\subsection{Same Origin Policy, SOP}
-\label{sec:chap2.3.1}
-\input{chapters/chap2/sop231}
-
-\subsection{Cross-Origin Resource Sharing, CORS}
-\label{sec:chap2.3.2}
-\input{chapters/chap2/cors232}
-
-\subsection{CSP}
-\label{sec:chap2.3.3}
-\input{chapters/chap2/csp233}
-
-\subsection{Sandboxing}
-\label{sec:chap2.3.4}
-\input{chapters/chap2/sndb234}
-
-\subsection{HTTP Headers}
-\label{sec:chap2.3.5}
-\input{chapters/chap2/httpH235}
-
-\subsection{Encoding}
-\label{sec:chap2.3.6}
-\input{chapters/chap2/encoding236}
-
-\subsection{Sanitization}
-\label{sec:chap2.3.7}
-\input{chapters/chap2/san237}
-
-\subsection{Otros}
-\label{sec:chap2.3.8}
-\input{chapters/chap2/otros238}
-
-%\ref{fig:Eucalyptus}.
-
-%\begin{figure}[h!t]
-%    \begin{center}
-%		\includegraphics[scale=0.8]{}
-%      \caption{Representación conceptual de una Nube con Eucalyptus. La especificación de las partes y su explicación se ve en \ref{sec:chap2.4.2}. Fuente \cite{EucalyptusOverview}}
-%      \label{fig:Eucalyptus}
-%    \end{center}
-%\end{figure}
-
-%\input{chapters/otros/}
