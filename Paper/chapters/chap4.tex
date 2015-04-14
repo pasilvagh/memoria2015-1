@@ -1,13 +1,24 @@
 \chapter{Documentación Semi-Formal de la Seguridad del Web Browser}
 \label{chap:chap4}
 
-\section{Sistemas Seguros}
+\section{Secure Software Development y Secure Software Design}
 \label{chap:chap4.1}
-En la Literatura existen variadas formas de construir sistemas seguros 
-[mencionar al menos 3 y explicarlos en 3 parrafos].
--CLASP
--Microsoft
 
-El enfoque en el cuál se basará este estudio es aquel que imparte Fernandez \cite{fernandez2013security}, que sostiene que para construir un sistema seguro es necesario realizarlo de manera sistemática de tal manera que la seguridad sea parte del integral de cada una de las etapas del Desarrollo de Software - de inicio a fin. El enfoque que propone es ingenieril y por tanto es aplicable incluso para sistemas \textit{legacy}, donde es posible hacer ingeniería inversa para comprobar si existen o no los requerimiento de seguridad implementados, de manera que permite generar un estudio con la intención de comparar y mejorar nuevos sistemas. En su libro \cite{ref1} presenta una completa metodología para construir sistemas seguros a partir de patrones de diseño, a los cuales nombra como \textbf{Security Patterns}.
+La filosofía detrás de \textit{Secure Software Developmet} es que detrás de cada etapa de desarrollo del software, se tengan en cuenta que los prinicipios de Seguridad: Confidencialidad, Integridad, Disponibilidad, Auditoría. Para cumplir este cometido es que se deben llegar a políticas y reglas que aseguren la Seguridad como una propiedad sistémica.
+
+Varias comunidades tienen diferentes enfoques y técnicas de cómo asegurar la Seguridad en los sistemas, muchas pueden incluso tener similitudes y hasta trabajar juntas. En este trabajo, el enfoque tomado es aquél que busca entregar la propiedad de seguridad a través del entendimiento de un sistema a un alto nivel, identificando las amenazas durante la elicitación de requerimientos, de manera que se pueda extraer las posibles amenazas que podrían existir y utilizando elementos de diseño para hacer cumplir los principios de seguridad necesarios por el sistema; este enfoque es el que se dedica la comunidad de \textit{Secure Software Design}. 
+
+
+Fernandez \cite{fernandez2013security} sostiene que para construir un sistema seguro es necesario realizarlo de manera sistemática de tal manera que la seguridad sea parte del integral de cada una de las etapas del Desarrollo de Software - de inicio a fin. El enfoque que propone es ingenieril y por tanto es aplicable incluso para sistemas \textit{legacy}, donde es posible hacer ingeniería inversa para comprobar si existen o no los requerimiento de seguridad implementados, de manera que permite generar un estudio con la intención de comparar y mejorar nuevos sistemas. En su libro \cite{ref1} presenta una completa metodología para construir sistemas seguros a partir de patrones de diseño, a los cuales nombra como \textbf{Security Patterns}.
 
 Como parte de la metodología propuesta, se plantea que para diseñar primero se deben entender las posibles amenazas a las que está expuesto el sistema. La identificación de Amenazas [Bra08a] [Fer06c] es la primera tarea que presenta la metodología, que considera las actividades en cada caso de uso del sistema.
+
+
+\section{Arquitectura de Referencia - \textit{Reference Architecture}}
+Una arquitectura de Referencia, de acuerdo a la \textit{Open Security Architecture} o OSA\cite{openSecArch}, es considerado un elemento que describe un \textbf{estado de ser} y debe representar aceptadas buenas practicas. 
+%Buscar si existe una definición para el caso de Secure Software Desing Community
+
+En este trabajo lo que se pretende hacer con la Arquitectura de Referencia, es dar a entender los componentes y elementos que la mayoría de los Web Browser tienen. Se sabe que el Browser es un pieza de Software que ha sufrido varios cambios desde 1990, por lo tanto entre los desarrolladores de ésta herramienta ya existen conveniones de qué elementos funcionan mejor. Por consiguiente, no es de extrañar que diferentes browsers estén construidos de formas muy similares, incluso existan ciertos \textbf{patrones} que pueden explayarse de buena manera mediante una Arquitectura de Referencia, que manifeste los componentes, mecanismos de comunicación, funcionamientos, etc.
+
+\section{Misuse Patterns}
+En \cite{ModMisusePatt} se entran pautas de cómo poder

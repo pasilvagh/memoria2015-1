@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{goertzel2007software}
 Karen~M Goertzel, Theodore Winograd, Holly~L McKinley, Lyndon~J Oh, Michael
@@ -19,8 +19,9 @@ Jeremiah Talamantes.
 \newblock The social engineer's playbook.
 
 \bibitem{cert}
-CERT's~Podcasts for Bussiness Leaders (The Software Engineering~Institute).
-\newblock Early identification reduces total cost (segment).
+Carnegie Mellon~University Computer Emergency Response~Team.
+\newblock Early identification reduces total cost (segment from cert's podcasts
+  for bussiness leaders).
 
 \bibitem{interCoursera}
 Mike Hicks.
@@ -36,5 +37,15 @@ Eduardo Fernandez-Buglioni.
 \bibitem{htmlSpec}
 W3C~Working Group.
 \newblock Html5 specification.
+
+\bibitem{openSecArch}
+Open~Security Architecture.
+\newblock Definitions by osa.
+
+\bibitem{ModMisusePatt}
+E.B. Fernandez, N.~Yoshioka, and H.~Washizaki.
+\newblock Modeling misuse patterns.
+\newblock In {\em Availability, Reliability and Security, 2009. ARES '09.
+  International Conference on}, pages 566--571, March 2009.
 
 \end{thebibliography}
