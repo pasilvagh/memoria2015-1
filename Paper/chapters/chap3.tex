@@ -3,3 +3,91 @@
 
 
 
+\section{Google: Google Chrome y Google Chromium}
+La misión de Google es organizar la información del mundo y lograr que sea útil y accesible para todo el mundo. Esta gran empresa partió como un búscador y rápidamente llegó a ser dueño de la mayor parte de búsquedas en el mundo. Tiene servicios de almacenamiento en la nube, correo electrónico, \textit{e-wallet} y otros más. Google ha sido responsable por la construcción del Navegador Web \textbf{Google Chrome} y \textit{Google Chromium}, siendo la segunda la versión open source.
+
+La arquitectura de Chrome o Chromim, siendo la segunda la versión Open Source de Google, se basa principalmente en
+dos módulos: el Browser Kernel y el Rendering Engine, cómo se puede ver en la Figura \ref{fig:archG} En el desarrollo de \cite{barth2008security} se presenta la arquitectura de seguridad que presenta tanto el browser Google Chrome cómo su versión OpenSource Google Chromium. Se define un modelo de amenazas donde se enumeran las habilidades que debería de tener un atacante y los objetivos de estos, para así caracterizar y evaluar las propiedades de seguridad necesarias para evitar que los atacantes cumplan su objetivo. Una propiedad importante que hacen destacar en el estudio es cómo aislar ciertos procesos que pueden ser aprovechados por los atacantes y ofrece una forma para poder mitigar esto: Sandboxing. El Sandbox de Coogle Chrome previene al atacante de leer o escribir en el sistema de archivos del usuario, dejando al Principal Web con los privilegios necesarios para parsear un HTML/XML y ejecutar código JavaScript. Sin embargo esta arquitectura no imposibilita al atacante a atacar otros sitios web si es
+que el Rendering Engine fue comprometido, lo que puede convertirse en una amenaza muy grande para otros sitios web. La arquitectura comentada se basa en dos decisiones de diseño. La arquitectura depende en el Rendering Engine para aquellos componentes de alto riesgo como JavaScript, el parser de HTML y la creación de DOM para hacer cumplir SOP; al estar rodeados por un Sandbox hace que el Rendering Engine se comporte como una caja negra. Un problema que se comenta es que el Same-Origin Policy hace dificil lograr una aislación fina en la arquitectura, sin tener que modificar ciertos elementos. En su arquitectura modular se puede ver que se intenta proveer una seguridad que evita afectar la compatibilidad con otros sitios.
+
+Las tabs son procesos separados para proteger completa mente la aplicación de bugs y glitches en el Rendering Engine. Cada Rendering Engine tiene restricciones de acceso a los demas y al sistema, lo que permite que exista una protección de la memoria y un control de acceso. En \cite{barth2008security} se explica que el objetivo principal de esta arquitectura es poder mitigar ataques muy severos sin tener que sacrificar la compatibilidad con los sitios web ya existentes. Para lograr el objetivo Google ha ganado muchas lecciones de cómo realizar esto \cite{reis2009browser}, pues explican que un gran desafío en la seguridad es proteger a los usuarios de los atacantes que se aprovechan de las vulnerabilidades y debilidades de los clientes web-browsers.
+
+Google Chrome expone en \cite{reis2009browser} que existen ciertas lecciones que han ido utilizando para mejorar la calidad de su browser. Estas son:
+
+\begin{itemize}
+	\item Reducción de las vulnerabilidades de seguridad, se basa en la aislación de ciertos componentes y la reducción de privilegios de ciertas tareas en el browser. La aislación lo lograron con la creación del Rendering Engine y el Browser Kernel, que tienen como objetivo proteger la data del sistema de archivos. Si bien esto puede no entregar muchos beneficios a una aplicación web, si lo hace en el usuario del browser.
+	\item Reducir la ventana de vulnerabilidades, la actualización del browser se hace cada cierto tiempo de forma automática para así cubrir las vulnerabilidades que van apareciendo.
+	\item Reducción de la frecuencia de exposición, Google trabaja con StopBadware.org para entregar una mayor seguridad al descubrir nuevos tipos de ataques y vulnerabilidades relacionadas con el browser.
+\end{itemize}
+
+
+\begin{figure}[h!t]
+    \begin{center}
+		\includegraphics[scale=0.5]{figures/archGC.jpg}
+      %\caption{Representación conceptual de una Nube con Eucalyptus. La especificación de las partes y su explicación se ve en \ref{sec:chap2.4.2}. Fuente \cite{EucalyptusOverview}}
+      \label{fig:archG}
+    \end{center}
+\end{figure}
+
+\subsection{Componentes}
+	\subsubsection{Safe Browsing}
+
+	\subsubsection{Address Space Layout Randomization (ASLR)}
+
+	\subsubsection{Safe Search} %control parental?
+
+\section{Microsoft}
+Internet Explorer es el navegador grafico predeterminado por Microsoft y que su primera versión 1.0 fue realizada en 1995. IE es una derivación de Spyglass Mosaic desarrolado por la NCSA (National Center for Supercomputing Applications). En primera instancia fue un navegador que podría ser obtebido si era comprado como complemento de \textit{Microsoft Plus!} o mediante la versión \textit{OEM} de Windows 95. Desde la tercera versión de IE, en 1996, que esta se lanzó de forma gratuita.
+        
+        La arquitectura de este navegador es modular y permite al desarrollador por utilizar los recursos para crear diferentes funcionalidades, ejemplo de esto son: toolbars, Microsoft Active X controls, etc. En la Figura \ref{fig:archIE} \cite{webpag3} se puede ver los principales componentes de la architectura del browser mencionado. IE utiliza \textit{COM} o \textit{Component Object Model} una interfaz binaria standard para componentes de software introducida por Microsoft en 1993 y que permite una comunicación entre procesos/componentes de software provenientes de la familia de software de Microsoft. \textit{COM} es similar a otras tecnologías de interfaz de componentes de software ( Component Software Interface Technologies) cómo CORBA y Java Beans. El uso de \textit{COM} gobierna la forma la interacción de los componentes que se comunicann y permite que haya un reuso y extensibilidad de estos.
+        
+        \begin{figure}[h!t]
+		    \begin{center}
+				\includegraphics[scale=0.65]{figures/IEArch.jpg}
+		      %\caption{Representación conceptual de una Nube con Eucalyptus. La especificación de las partes y su explicación se ve en \ref{sec:chap2.4.2}. Fuente \cite{EucalyptusOverview}}
+		      \label{fig:archIE}
+		    \end{center}
+		\end{figure}
+
+        
+        El ejecutable IExplore.exe es la base para el corazón del navegador \textit{Mshtml.dll} que se encarga del \textit{parsing} tanto de \textit{CSS} como del \textit{HTML} así como también de la función de renderizado de la página en el navegador; tiene también la tarea de alojar otros componentes dependiendo del contenido del HTML parseado, cómo JScript, XML Data, etc. Con codename \textit{Trident}, expone su interfaz para poder ser alojado por el componente \textit{Shdocvw.dll}, llamado también WebBrowser Control, que se encarga de poder dar funcionalidad, navigabilidad y un historial al browser, permitiendo que sea alojada facilmente en una \textit{Aplicación Windows}. La interfaz de usuario es proveída por \textit{Browsui.dll}. Cuando se realiza una descarga de un recurso, \textit{Urlmon.dll} pasa por una serie de pasos para asegurar que el tipo de archivo calce con el tipo \textit{MIME} declarado por el servidor. Finalmente, \textit{WinInet.dll} se encarga de implementar los protocolos de aplicación HTTP y FTP, agregando también el manejo del cache del browser.
+        
+        La arquitectura de Internet Explorer, basada en la tecnología \textbf{COM}, permite extender sus capacidade, por ejemplo: \textbf{Mediante Extensiones del browser}, \textbf{Extensiones de Contenido} y \textbf{Alojo y Reuso}.
+
+\subsection{Componentes}
+
+
+\section{Mozilla}
+
+Mozilla fue creado a partir del navegador \textit{Netscape} en 1998, el cuál ha sido rediseñado en varias ocasiones. Las metas de diseño que Mozilla desee en el navegador son:
+        \begin{itemize}
+            \item Renderizado rápido de las páginas web.
+            \item Fuerte apoyo a los estandares web como la W3C.
+            \item Interoperabilidad en las diversas plataformas.
+        \end{itemize}
+        
+        \begin{figure}[h!t]
+		    \begin{center}
+				\includegraphics[scale=0.8]{figures/archMoz.jpg}
+		      %\caption{Representación conceptual de una Nube con Eucalyptus. La especificación de las partes y su explicación se ve en \ref{sec:chap2.4.2}. Fuente \cite{EucalyptusOverview}}
+		      \label{fig:archM}
+		    \end{center}
+		\end{figure}
+        
+        La arquitectura de este browser puede ser vista en la Figura \ref{fig:archM} donde se pueden observar los siguientes componentes:
+        \begin{itemize}
+            \item La interfaz de usuario, puede ser reutilizada para otras aplicaciones.
+            \item La persistencia de los datos, tanto de bookmarks como de data de bajo nivel como el \textit{cache}.
+            \item EL \textit{Rendering Engine}, permite el renderizado de documentos HTML/XML aún cuando estos estén mal formados. Este Engine es capaz de renderizar la interfaz de la aplicación multi-plataforma.
+        \end{itemize}
+        La arquitectura de Mozilla se distingue de las demás en que la visualización especificada por la plataforma y la librería de \textit{widgets} son usados directamente en el navegador, lo que minimiza el costo necesario para soportar diferentes plataformas.
+        
+\subsection{Componentes}
+	\subsubsection{Safe Browsing}
+		%ocupan la tecnología de google
+%\subsection{}
+
+%tipo de arquitectura
+%mecanismos de defensa
+
+

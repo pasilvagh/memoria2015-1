@@ -1,32 +1,40 @@
 \select@language {spanish}
-\contentsline {chapter}{\'Indice general}{\es@scroman {iv}}{chapter*.1}
+\contentsline {chapter}{\'{I}ndice general}{\es@scroman {iv}}{chapter*.1}
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Web Browser}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Motivaci\IeC {\'o}n: \IeC {\textquestiondown }Por que estudiar el Browser?}{1}{section.1.2}
+\contentsline {section}{\numberline {1.2}Motivaci\IeC {\'o}n: \IeC {\textquestiondown }Por qu\IeC {\'e} estudiar el Browser?}{1}{section.1.2}
 \contentsline {section}{\numberline {1.3}Contribuciones}{3}{section.1.3}
 \contentsline {section}{\numberline {1.4}Estructura del Documento}{3}{section.1.4}
-\contentsline {section}{\numberline {1.5}Definiciones B\IeC {\'a}sicas}{3}{section.1.5}
+\contentsline {section}{\numberline {1.5}Definiciones B\IeC {\'a}sicas}{4}{section.1.5}
 \contentsline {section}{\numberline {1.6}Desarrollo de Software y Secure Software/Software Security}{6}{section.1.6}
-\contentsline {chapter}{\numberline {2}Estado del Arte: El Web Browser}{8}{chapter.2}
-\contentsline {section}{\numberline {2.1}Organizaciones}{8}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}OWASP}{8}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}IEEE CSD}{8}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}Same Origin Policy}{8}{section.2.2}
-\contentsline {section}{\numberline {2.3}HTML: HyperText Markup Language}{9}{section.2.3}
-\contentsline {section}{\numberline {2.4}Webworkers}{9}{section.2.4}
-\contentsline {section}{\numberline {2.5}}{9}{section.2.5}
-\contentsline {section}{\numberline {2.6}HTTP}{9}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Comunicaci\IeC {\'o}n en HTTP}{9}{subsection.2.6.1}
-\contentsline {subsubsection}{postMessage}{9}{subsubsection*.2}
-\contentsline {subsubsection}{XMLHttpRequest}{9}{subsubsection*.3}
-\contentsline {subsubsection}{WebSockets}{9}{subsubsection*.4}
-\contentsline {chapter}{\numberline {3}El Web Browser}{10}{chapter.3}
-\contentsline {chapter}{\numberline {4}Documentaci\IeC {\'o}n Semi-Formal de la Seguridad del Web Browser}{11}{chapter.4}
-\contentsline {section}{\numberline {4.1}Secure Software Development y Secure Software Design}{11}{section.4.1}
-\contentsline {section}{\numberline {4.2}Arquitectura de Referencia - \textit {Reference Architecture}}{12}{section.4.2}
-\contentsline {section}{\numberline {4.3}Misuse Patterns}{12}{section.4.3}
-\contentsline {chapter}{\numberline {5}Conclusiones}{13}{chapter.5}
-\contentsline {section}{\numberline {5.1}Conclusiones}{13}{section.5.1}
-\contentsline {section}{\numberline {5.2}Trabajo Futuro}{13}{section.5.2}
-\contentsline {chapter}{Bibliograf\'{\i }a}{14}{chapter*.5}
-\contentsline {chapter}{\numberline {A}Anexos}{15}{appendix.Alph1}
+\contentsline {chapter}{\numberline {2}Estado del Arte: El Web Browser}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Organizaciones}{9}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}OWASP}{9}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}IEEE CSD}{9}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}W3C - World Wide Web Consortium}{10}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Navegadores Web - Web Browser conocidos y las empresas asociadas}{10}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Google: Google Chrome y Google Chromium}{10}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Microsoft}{11}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Mozilla}{13}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Same Origin Policy}{14}{section.2.3}
+\contentsline {section}{\numberline {2.4}HTML: HyperText Markup Language}{15}{section.2.4}
+\contentsline {section}{\numberline {2.5}Document Object Model, DOM}{15}{section.2.5}
+\contentsline {section}{\numberline {2.6}Javascript}{16}{section.2.6}
+\contentsline {section}{\numberline {2.7}Webworkers}{17}{section.2.7}
+\contentsline {section}{\numberline {2.8}CORS}{17}{section.2.8}
+\contentsline {section}{\numberline {2.9}HTTP}{18}{section.2.9}
+\contentsline {subsection}{\numberline {2.9.1}Comunicaci\IeC {\'o}n en HTTP}{18}{subsection.2.9.1}
+\contentsline {subsubsection}{postMessage}{18}{subsubsection*.2}
+\contentsline {subsubsection}{XMLHttpRequest}{18}{subsubsection*.3}
+\contentsline {subsubsection}{WebSockets}{18}{subsubsection*.4}
+\contentsline {chapter}{\numberline {3}El Web Browser}{19}{chapter.3}
+\contentsline {chapter}{\numberline {4}Documentaci\IeC {\'o}n Semi-Formal de la Seguridad del Web Browser}{20}{chapter.4}
+\contentsline {section}{\numberline {4.1}Secure Software Development y Secure Software Design}{20}{section.4.1}
+\contentsline {section}{\numberline {4.2}Arquitectura de Referencia - \textit {Reference Architecture}}{21}{section.4.2}
+\contentsline {section}{\numberline {4.3}Security Patterns o Patrones de Seguridad}{21}{section.4.3}
+\contentsline {section}{\numberline {4.4}Misuse Patterns o Patrones de Mal Uso}{21}{section.4.4}
+\contentsline {chapter}{\numberline {5}Conclusiones}{23}{chapter.5}
+\contentsline {section}{\numberline {5.1}Conclusiones}{23}{section.5.1}
+\contentsline {section}{\numberline {5.2}Trabajo Futuro}{23}{section.5.2}
+\contentsline {chapter}{Bibliograf\'{\i }a}{24}{chapter*.5}
+\contentsline {chapter}{\numberline {A}Anexos}{26}{appendix.Alph1}

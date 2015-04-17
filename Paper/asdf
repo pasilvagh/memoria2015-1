@@ -1,0 +1,180 @@
+%Definiciones
+\section{Definiciones}
+\label{sec:chap2.1}
+
+\subsection{Vulnerabilidades, Debilidades, Amenazas y Ataques}
+\label{sec:chap2.1.1}
+%\input{}
+
+
+\subsection{Browser: HTML, DOM, CSS, Javascript y Otros}
+\label{sec:chap2.1.2}
+%\input{}
+
+\subsubsection{HyperText Markup Language, HTML}
+\label{sec:chap2.1.2.1}
+%\input{}
+
+\subsubsection{Extensible Markup Language, XML}
+\label{sec:chap2.1.2.2}
+%\input{}
+
+\subsubsection{Document Object Model, DOM}
+\label{sec:chap2.1.2.3}
+%\input{}
+
+\subsubsection{Cascading Style Sheets, CSS}
+\label{sec:chap2.1.2.4}
+%\input{}
+
+\subsubsection{Javascript}
+\label{sec:chap2.1.2.5}
+%\input{}
+
+\subsubsection{Asynchronous JavaScript And XML, Ajax}
+\label{sec:chap2.1.2.6}
+%\input{}
+
+\subsubsection{Adobe Flash}
+\label{sec:chap2.1.2.7}
+%\input{}
+
+\subsubsection{Render Engine}
+\label{sec:chap2.1.2.8}
+%\input{}
+
+\subsubsection{User and X Browsing}
+\label{sec:chap2.1.2.9}
+%\input{}
+
+\section{Canales de Comunicación en el Browser}
+\label{sec:chap2.4}
+%\input{chapters/chap2/ccb24}
+
+%Otras secciones
+\section{Riesgos al Navegar y Ataques en el Browser}
+\label{sec:chap2.2}
+%\input{}
+
+
+%Mecanismos de Defensas de las Grandes empresas
+
+\subsection{Google Download Protection}
+\label{sec:chap2.3.8}
+%\input{}
+
+\subsection{Google Safe Browsing}
+\label{sec:chap2.3.9}
+%\input{}
+
+%Mecanismos de Defensa Generales
+\section{Mecanismos de Seguridad en el Browser}
+\label{sec:chap2.3}
+%\input{}
+
+\subsection{Same Origin Policy, SOP}
+\label{sec:chap2.3.1}
+%\input{}
+
+\subsection{Cross-Origin Resource Sharing, CORS}
+\label{sec:chap2.3.2}
+%\input{}
+
+\subsection{CSP}
+\label{sec:chap2.3.3}
+%\input{}
+
+\subsection{Sandboxing}
+\label{sec:chap2.3.4}
+%\input{}
+
+\subsection{HTTP Headers}
+\label{sec:chap2.3.5}
+%\input{}
+
+\subsection{Encoding}
+\label{sec:chap2.3.6}
+%\input{}
+
+\subsection{Sanitization}
+\label{sec:chap2.3.7}
+%\input{}
+
+
+
+
+
+
+
+%Definiciones
+\section{Componentes del Browser}
+\label{sec:chap3.1}
+
+\subsection{Render Engine}
+\label{sec:chap3.1.1}
+%\input{}
+
+
+\section{Ethical Hacking en el Browser}
+\label{sec:chap3.2}
+%\input{}
+
+\subsection{Ataques de Ingeniería Social}
+\label{sec:chap3.2.1}
+%\input{}
+
+\subsection{WebGoat}
+\label{sec:chap3.2.2}
+%\input{}
+
+\subsection{BeeF y Metasploit}
+\label{sec:chap3.2.3}
+%\input{}
+
+
+
+
+
+
+
+
+
+%Definiciones
+\section{Threat Modeling y Misuse Patterns}
+\label{sec:chap4.1}
+
+
+
+\section{Arquitectura de Referencia del Browser}
+%\label{sec:chap4.1}
+
+\subsection{Definición}
+%\label{sec:chap4.1.1}
+%\input{chapters/chap4/}
+
+\subsection{Construcción}
+%\label{sec:chap4.1.2}
+%\input{chapters/chap4/}
+
+
+\section{Formulación de Patrones de Ataque}
+%\label{sec:chap4.2}
+%\input{chapters/chap4/}
+
+\subsection{Ataque 1: }
+%\label{sec:chap4.2.1}
+%\input{chapters/chap4/}
+
+\subsection{Ataque 2: }
+%\label{sec:chap4.2.2}
+%\input{chapters/chap4/}
+
+\subsection{Ataque 3:}
+%\label{sec:chap4.2.3}
+%\input{chapters/chap4/}
+
+\section{Discusión de Patrones de Mal uso existentes}
+%\label{sec:chap4.3}
+
+
+
