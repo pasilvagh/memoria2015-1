@@ -15,6 +15,8 @@ Como parte de la metodología propuesta, se plantea que para diseñar primero se
 
 
 \section{Arquitectura de Referencia - \textit{Reference Architecture}}
+%usar: grosskurth2005, webpag3 (IE), reis2009isolating
+
 Una arquitectura de Referencia, de acuerdo a la \textit{Open Security Architecture} o OSA\cite{openSecArch}, es considerado un elemento que describe un \textbf{estado de ser} y debe representar aceptadas buenas practicas. 
 %Buscar si existe una definición para el caso de Secure Software Desing Community
 
@@ -23,7 +25,17 @@ En este trabajo lo que se pretende hacer con la Arquitectura de Referencia, es d
 \section{Security Patterns o Patrones de Seguridad}
 
 \section{Misuse Patterns o Patrones de Mal Uso}
-Para diseñar sistemas seguros, se es necesario identificar las posibles amenazas que un sistema puede sufrir. Papers como \cite{fernandez2013security, fernandez2006defining, fernandez2007attack, braz2008eliciting} muestran el desarrollo de una metodología completa para encontrar amenazas durante el desarrollo del Software, desde el análisis de requerimientos, diseño, implementación y \textit{deployment}. Éste proceso busca analizar las actividades en los casos de uso del sistema a construir, para encontrar lo que podría llamarse \textit{attack vectors} o \textit{Threats}. Es importante aclarar que en la literatura es posible encontrar documentos que hablan de forma indistinta de \textit{Attack Patterns} o \textit{Misuse Pattern}. Es importante no confundir, pués claramente en \cite{ModMisusePatt} dejan explícito que un \textit{Attack Patttern} es una acción que lleva a un mal uso, \textit{misuse}. A partir de los trabajos \cite{fernandez2007attack, yoshioka2006development, yoshioka2007integration}  se hace la unión de los conceptos de \textit{Attack Patttern} para dar forma a la definición de \textit{Misuse Pattern} \cite{ModMisusePatt, pelaez2009misuse, fernandez2010worm, hashizume2011misuse, munoz2011misuse, fernandez2012misuse, alkazimi2014, encinamisuse}.
+Para diseñar sistemas seguros, se es necesario identificar las posibles amenazas que un sistema puede sufrir. Papers como \cite{fernandez2013security, fernandez2006defining, fernandez2007attack, braz2008eliciting} describen el desarrollo de una metodología completa para encontrar amenazas, a través del análisis de actividaddes de los casos de uso del sistema buscando como podría un atacante interno o externo socavar las bases de esas actividades. Es importante no confundir \textit{Attack Patterns} con \textit{Misuse Pattern}, pués claramente en \cite{ModMisusePatt, fernandez2013security} dejan explícito que un \textit{Attack Patttern} es una acción que lleva a un mal uso o \textit{misuse}, o acciones \textbf{específicas} que toman ventaja de las vulnerabilidades de un sistema, como por ejemplo un \textit{buffer overflow}. A partir de los trabajos \cite{fernandez2007attack, yoshioka2006development, yoshioka2007integration}  se hace la unión de los conceptos de \textit{Attack Patttern} para dar forma a la definición de \textit{Misuse Pattern} \cite{ModMisusePatt, pelaez2009misuse, fernandez2010worm, hashizume2011misuse, munoz2011misuse, fernandez2012misuse, alkazimi2014, encinamisuse}. Esta nueva definición indica entonces indica que:
+\begin{center}
+	Un patrón de mal uso o \textit{Misuse Pattern} describe, desde el punto de vista del atacante, qué tipo de ataque es realizadom ()
+\end{center}
+The misuse pattern describes, from the point of view of the attacker, how a type of at-
+tack is performed (what units it uses and how), analyzes ways of stopping the attack by
+enumerating possible security patterns that can be applied for this purpose, and describes
+how to trace the attack once it has happened by appropriate collection and observation
+of forensic data. It also describes precisely the context in which the attack may occur
+
+
 
 Sin embargo, cuando un sistema ya está diseñadom y construido, como es el caso del Web Browser, lo que va a importar es saber \textbf{cómo} los componentes del sistema, pueden ser usados por el atacante para alcanzar sus objetivos. Un \textit{Misuse Pattern} o \textbf{Patrón de Mal Uso} describe, desde el punto de vista del atacante, cómo un tipo de ataque es realizado, indicando \textbf{qué} componentes usa y \textbf{cómo}. Además analiza las formas de detener el ataque a través de un listado de posibles \textit{Security Patterns} o \textbf{Patrones de Seguridad} que pueden ser aplicados para esa situación, y describe cómo poder seguir el rastro de un ataque una vez que ha sido realizado con éxito en el sistema, a través de data forense. Además describe un contexto en dónde puede ocurrir el ataque.
 

@@ -44,6 +44,41 @@ Mike Hicks.
 IEEE~Cyber Security.
 \newblock Ieee cyber security y center for secure design.
 
+\bibitem{alcorn2014browser}
+Wade Alcorn, Christian Frichot, and Michele Orr{\`u}.
+\newblock {\em The Browser Hacker's Handbook}.
+\newblock John Wiley \& Sons, 2014.
+
+\bibitem{Zalewsk08}
+Technical report.
+
+\bibitem{barth2009securing}
+Adam Barth, Collin Jackson, and John~C Mitchell.
+\newblock Securing frame communication in browsers.
+\newblock {\em Communications of the ACM}, 52(6):83--91, 2009.
+
+\bibitem{htmlSpec}
+W3C~Working Group.
+\newblock Html5 specification.
+
+\bibitem{w3c}
+World Wide Web~Consortium W3C.
+\newblock About.
+
+\bibitem{barth2009attacks}
+Adam Barth, Collin Jackson, and William Li.
+\newblock Attacks on javascript mashup communication.
+\newblock In {\em Proceedings of the Web}, volume~2. Citeseer, 2009.
+
+\bibitem{bookWebAppSec}
+Bryan Sullivan and Vincent Liu.
+\newblock {\em Web application security}.
+\newblock McGraw-Hill, 2012.
+
+\bibitem{multiProcArchG}
+Google Chromium.
+\newblock Multi-process architecture.
+
 \bibitem{barth2008security}
 Adam Barth, Collin Jackson, Charles Reis, TGC Team, et~al.
 \newblock The security architecture of the chromium browser, 2008.
@@ -54,11 +89,7 @@ Charles Reis, Adam Barth, and Carlos Pizano.
 \newblock {\em Queue}, 7(5):3, 2009.
 
 \bibitem{webpag3}
-[Visita:~7/07/14] Internet Explorer~Architecture.
-
-\bibitem{htmlSpec}
-W3C~Working Group.
-\newblock Html5 specification.
+Internet~Explorer Architecture.
 
 \bibitem{openSecArch}
 Open~Security Architecture.
