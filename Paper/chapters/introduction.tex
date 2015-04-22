@@ -3,7 +3,10 @@
 
 
 \chapter{Introducción}
-\label{chap:intro}
+\label{chap1:intro}
+
+\section{Contexto General}
+\label{chap1:CG}
 
 Mucho antes que aparecieran los grandes sistemas que ahora conocemos, el \textit{Web Browser} era la herramienta usada por todos para navegar, las ya viejas páginas estáticas, y que permitía un sin número de acciones a aquellos que necesitaban conectarse al \textit{Internet}. En la actualidad el \textit{browser} sigue siendo la herramienta predilecta por todos, desde comprar tickets para una película, realizar reuniones por videoconferencia y muchas otras tareas que invitan a nuevas formas de interactuar y comunicar.
 
@@ -13,13 +16,29 @@ La \textit{Web 2.0}, que se inició con el uso intensivo de tecnologías como AJ
 
 En esta memoria se quiere presentar al Departamento de Informática (DI) de la UTFSM\footnote{Universidad Técnica Federico Santa María} Casa Central, sobre la investigación que contempla un estudio del Navegador Web.
 
-\section{Web Browser}
-\label{chap:WB}
+\section{Contexto General: Web Browser}
+\label{chap1:WB}
 Entre 1989 y 1990, Tim Berners-Lee acuño el concepto de \textit{World Wide Web} y con ésto realizó la construcción del primer \textit{Web Server}, \textit{Web Browser }y las primeras páginas \textit{Web}. El fin de su construcción era poder
 %terminar intro de browser
 
+
+\section{Problema: Desarrollo de Software y Seguridad}
+\label{chap1:SD_SS}
+
+Ningún Desarrollo de Software es igual al anterior. Cada vez que un nuevo Proyecto surge es necesario ver qué tipo de Proceso es el que se usará, qué personas serán parte del grupo de trabajo, qué condiciones económicas está expuesto, qué tipo de \textit{Stakeholder} están pendientes de que el Proyecto salga exitoso y un sin numero de variables, no menos importantes, a considerar. Por lo tanto, dependiendo de lo anterior los sistemas podrían llegar a ser simples o muy complejos y por consiguiente es necesario tener ciertas metodologías que aseguren que se cumplan con todos los Requerimientos Funcionales como No-Funcionales del Sistema a construir. Sin embargo, por muy buen Plan de Proyecto que se tenga, Jefe de Proyecto, Analista, Arquitecto, Programadores, Testers, etc. el proyecto podría peligrar antes o después de terminado, simplemente por que tuvo \textbf{Problemas en la Seguridad}.
+
+Un hecho recurrente para todos los sistemas distribuidos en la Internet, es la gran cantidad de vulnerabilidades y amenazas a las que se enfrentan día a día. En el área de la Ciberseguridad o \textit{Cyber Security} (otra forma de decir \textit{Computer Security}), se dice que tanto atacantes como defensores de la seguridad están constantemente realizando un \textit{Juego del Gato y el Ratón}. Esto es dado a que constantemente los atacantes se ingenian nuevas formas para cometer delitos informáticos, a través de las vulnerabilidades en los sistemas que están sobre la Internet, y que las grandes compañías de seguridad, tratan de detectar - y crear una solución - lo antes posible. El fenómeno en la literatura llamado \textit{Zero-day attack} se refiere al momento clave donde un atacante explota una vulnerabilidad - hasta ese momento desconocida - de algún sistema (importante o no), y que si no es parchado lo antes posible puede comprometer no solo a sistemas, si no también a los usuarios que hacen uso de éste. Sin embargo muchas veces ocurre que aunque se corrijan estos nuevos ataques, no todos los sistemas que podrían llegar a necesitar del mismo parque para protegerse del ataque, realizan la actualización y adecuada configuración de sus sistemas para que se puedan proteger de una posible amenaza que explote la vulnerabilidad recientemente encontrada.
+
+Si bien el \textbf{Zero-day Attack} es un evento que podría no ocurrir tan repetidamente, dado que se produce por el largo estudio llevado por el atacante, sobre el sistema a vulnerar, existen otras formas de comprometer a un sistema. Muchas veces al desarrollar sistemas, se prefiere utilizar API's\footnote{Application Programming Interface} de otros sistemas para poder incluir funcionalidades ya implementadas, fomentando así el Reuso de piezas de Software. Si bien lo anterior es una buena práctica, si el sistema no cuenta con las medidas de seguridad necesarias, estas piezas podrían ser causa de amenazas de seguridad que terminarían por corromper el sistema y en consecuencia podría causar una pérdida monetaria a los \textit{Stakeholders}. Por lo mismo, lidiar con las preocupaciones de seguridad es un factor que puede ser clave para el Desarrollo de Software: Una vez que el sistema este en \textit{Deployment}, las consecuencias de no tener en cuenta la Seguridad desde el inicio del Desarrollo de Software pueden ser muy costosas \cite{cert}, incluso pudiendo afectar la Confidencialidad, Integridad y Disponibilidad de los datos de quienes lo usan \cite{interCoursera}. % buscar más citas.
+
+El problema de la mayoría del Software construído es que contiene numerosos \textbf{defectos} y \textbf{errores}, generando así \textbf{vulnerabilidades} que son encontradas y explotadas por los atacantes, de tal manera que generan el compromiso del sistema completo \cite{goertzel2007software}. Por esto mismo, es imperante que sean entendidos los Requerimientos de Seguridad del Sistema a construir desde el inicio de su construcción y que todos los involucrados también los entiendan perfectamente. La literatura que habla de la construcción de \textbf{Secure Software} o Software Seguro, indica que los practicantes del Desarrollo de Software deben entender, en gran medida, los problemas de seguridad que podrían llegar a ocurrir en sus sistemas. No basta con saber como unir las piezas, no basta con que cada pieza de por si sea segura, si los componentes del sistema no actuan de forma coordinada, probablemente éste no será seguro \cite{fernandez2013security}, dado que la seguridad es una Propiedad Sistémica que necesita ser vista de manera holística.  
+
+Un sistema seguro o \textbf{Secure Software}, no tendrá en lo posible, vulnerabilidades que puedan ser explotadas. Sin embargo, hay que tener en cuenta que dado que el Desarrollo de Software - incluso los sistemas seguros - dependen de personas, procesos, y tecnologías, será imposible tener un \(100\%\) de confiabilidad en la Seguridad implementada, pues los ``fallas humanas'' o ``descuidos humanos'' siempre existirán. Si el sistema seguro no pudiera llegar a resistir un ataque, lo primero que debe intentar es aislarse del resto y degradar con gracia, de manera que no afecte el rendimiento del sistema. Finalmente, si un ataque tuvo a lugar lo importante es que el equipo detrás del sistema no se quede inmovil, luego de recuperarse del compromiso es necesario tener inmediatamente un parche que solucione la vulnerabilidad existente. Más aún, si esta vulnerabilidad se encontrara en un componente externo o \textit{Third Party code}, el sistema que llegara a hacer uso de esa pieza de Software tiene que tener medidas para que no afecte la totalidad del sistema.
+
+
+
 \section{Motivación: ¿Por qué estudiar el Browser?}
-\label{chap:motiv}
+\label{chap1:motiv}
 En el pasado era bien visto que cada Desarrollo de Software, pudiera levantar todo su sistema sin tener que depender de externos para funcionar. Este pensamiento, sin embargo, ha cambiado mucho en el último tiempo tanto debido a factores sociales, económicos, técnicos y otros. 
 
 Actualmente las nuevas formas para Desarrollar Software, tanto métodos como procesos, tratan de ajustarse lo más posible a lo que su Cliente le pida, para poder cumplir con las metas del Proyecto a Desarrollar en el tiempo estipulado. Muchas veces esto conlleva a reducir gastos que terminan por afectar: la calidad del \textit{Software}, sus atributos sistémicos, y en consecuencia la Seguridad tanto del sistema, como la del cliente que lo utiliza.
@@ -40,7 +59,7 @@ Este trabajo desea ayudar, a quién lo necesite, con el conocimiento necesario p
 
 
 \section{Contribuciones}
-\label{chap:contr}
+\label{chap1:contr}
 
 El Objetivo General de esta Memoria es generar un cuerpo organizado de información sobre el Web Browser y su Seguridad, de tal manera que se pueda sistematizar, organizar y clasificar el conocimiento adquirido en un documento con formato fácil de entender, tanto para Profesionales como Estudiantes del área Informática. 
 
@@ -55,8 +74,12 @@ Particularmente, este trabajo busca cumplir con los siguientes Objetivos Especí
 \end{itemize} 
 
 
+\section{Metodología}
+\label{chap1:Met}
+XXX
+
 \section{Estructura del Documento}
-\label{chap:estruct}
+\label{chap1:estruct}
 
 El presente documento trata del trabajo de Memoria que se divide en las siguientes partes:
 
@@ -68,66 +91,9 @@ El presente documento trata del trabajo de Memoria que se divide en las siguient
 
 
 
-\section{Definiciones Básicas}
-\label{chap:Def}
-
-Para empezar este estudio es necesario introducir ciertas nociones y lenguaje que se usarán durante todo el documento. Estos conceptos son usados en la Seguridad y Desarrollo de Software, y son extendibles para lo que se verá en este estudio.
-
-\begin{itemize}
-	\item Seguridad - \textit{Security}:
-		\\Es una Propiedad que podría tener un sistema, donde asegura la protección de los recursos e información, en contra de ataques maliciosos desde fuentes externas como internas. La Seguridad también involucra controlar que el funcionamiento de un sistema sea como debería ser, y que nada externo o interno genere un error.
-	\item Error - \textit{Error}:
-		\\Es una acción de caracter humano. Éste se genera cuando se tienen ciertas nociones equivocadas, que causan un Defecto en el Sistema o Código.
-	\item Defecto  - \textit{Defect}:
-		\\Es una caracterítica que se obtiene a nivel de Diseño, cuando una funcionalidad no hace lo que tiene que realmente hacer. Según la IEEE CSD o \textit{Center for Secure Design} \cite{ieeecsd2}, un defecto puede ser subdividido en 2 partes: falla o \textbf{flaw} y \textbf{bug}, donde la primera tiene que ver con un error de \textbf{alto nivel}, mientras que un bug es un problema de implementación en el Software. Una falla es menos notoria que un bug, dado que ésta es de caracter abstracto, a nivel de diseño del Software.
-	\item Falla - \textit{Fail}:
-		\\Es un estado en que el Software Implementado no funciona como debería de ser.
-	\item Vulnerabilidades - \textit{Vulnerability}:
-		\\Es una debilidad inherente del sistema que permite a un atacante poder reducir el nivel de confianza de la información de un sistema. Una vulnerabilidad convina 3 elementos: un defecto en el sistema, un atacante tratando de acceder a ese defecto y la capacidad que tiene el atacante para llevarlo a cabo. Las vulnerabilidades más críticas son documentadas en la \textit{Common Vulnerabilities and Exposures} (CVE) \cite{cve}.
-	\item Superficie de Ataque - \textit{Attack Surface}:
-		\\Es el conjunto de todas las posibles vulnerabilidades que un sistema puede tener, en un cierto momento, para una cierta versión del sistema, etc.
-	\item Amenaza - \textit{Threat}
-		\\Es una acción/evento que se aprovecha de las vulnerabilidades del sistema, debilidades, para causar un daño, y que dependiendo del recurso al que afecte el daño puede o no ser reparable.
-	\item Ataque - \textit{Attack}
-		\\Es el éxito de la amenaza en el aprovechamiento de la vulnerabilidad (explotación de ésta), de tal forma que genera una acción negativa en el sistema y favorable para el atacante.
-	\item \textit{Exploit}:
-		\\Usar una pieza de software para poder llevar a cabo un ataque sobre un objetivo, intentando \textbf{explotar} la vulnerabilidad de éste. Este tipo de acción permite en consecuencia obtener control en el sistema computacional, en donde la vulnerabilidad permitió su acceso.
-	\item Ingeniería Social - \textit{Social Engineering}
-		\\El acto de manipular a las personas de manera que realicen acciones o divulguen información confidencial. El termino aplica al acto de engañar con el propósito de juntar información, realizar un fraude, u obtener acceso a un sistema computacional. La definición anterior encontrada en Wikipedia es extendida por el autor del libro ``The Social Engineer's Playbook'' \cite{socEngineeering}, donde agrega que además la Ingeniería Social involucra el hecho de manipular a una persona en realizar acciones que finalmente no son para beneficiar a la víctima. Un ataque de éste tipo también puede llegar a ser realizado tanto \textbf{cara a cara}, como de forma indirecta. Pero el autor del libro indica que siempre hay un \textbf{contacto} previo con la víctima.
-	\item Confidencialidad - \textit{Confidentiality} 
-		\\Característica o propiedad que debe mantener un sistema para que la información privilegiada de alguna entidad que depende de tal sistema, no sea develada a nadie más que al que le pertenece la información.
-	\item Integridad - \textit{Integrity}
-		\\Característica o propiedad que asegura que la información no será modificada/alterada nada más que por la entidad a quién le pertenece y con el previo consentimiento de éste.
-	\item Disponibilidad - \textit{Availability}
-		\\Característica o propiedad que permite que la información esté disponible para quién lo necesite, en el momento que sea. La imposibilidad de obtener data en un cierto instante de tiempo, conlleva a la perdida de esta propiedad.
-	\item \textit{Phishing}
-		\\Técnica de Ingeniería Social. Mediante el uso de correo elentrónico, links (url's), acortamiento de urls y otras herramientas, se busca que una victima visite un sitio o aprete un link de manera que se de la \textbf{autorización explicita} del usuario para descargar código malicioso o enviar datos a un servidor malicioso. El objetivo de esta técnica es poder obtener información valiosa de la victima o relizar algún daño en el cliente web.
-	\item \textit{Malware}
-		\\Software creado para realizar acciones maliciosas en la data o sistema de un usuario. Puede ser instalado tanto de forma discreta como indiscreta, siendo la segunda opción causada a través de un ataque previo a cierta vulnerabilidad que permitió la instalación del malware, sin el consentimiento del usuario privilegiado del sistema.
-	\item \textit{Man-in-the-Middle}
-		\\Ataque que causa una pérdida en la Confidencialidad de la información que es revelada. La causa de este ataque puede ser tanto:
-			\begin{itemize}
-				\item Por técnicas de Ingeniería Social, entregano un certificado malicioso que el usuario acepta con o sin intención.
-				\item A través de vulnerabilidades del sistema que debieron ser explotadas antes para causar el ataque MiTM.
-			\end{itemize}
-	%\item \textit{Penetration Testing}
-	%\item \textit{Fuzzing}
-\end{itemize}
 
 
 
-\section{Desarrollo de Software y Secure Software/Software Security}
-\label{chap:SD_SS}
-
-Ningún Desarrollo de Software es igual al anterior. Cada vez que un nuevo Proyecto surge es necesario ver qué tipo de Proceso es el que se usará, qué personas serán parte del grupo de trabajo, qué condiciones económicas está expuesto, qué tipo de \textit{Stakeholder} están pendientes de que el Proyecto salga exitoso y un sin numero de variables, no menos importantes, a considerar. Por lo tanto, dependiendo de lo anterior los sistemas podrían llegar a ser simples o muy complejos y por consiguiente es necesario tener ciertas metodologías que aseguren que se cumplan con todos los Requerimientos Funcionales como No-Funcionales del Sistema a construir. Sin embargo, por muy buen Plan de Proyecto que se tenga, Jefe de Proyecto, Analista, Arquitecto, Programadores, Testers, etc. el proyecto podría peligrar antes o después de terminado, simplemente por que tuvo \textbf{Problemas en la Seguridad}.
-
-Un hecho recurrente para todos los sistemas distribuidos en la Internet, es la gran cantidad de vulnerabilidades y amenazas a las que se enfrentan día a día. En el área de la Ciberseguridad o \textit{Cyber Security} (otra forma de decir \textit{Computer Security}), se dice que tanto atacantes como defensores de la seguridad están constantemente realizando un \textit{Juego del Gato y el Ratón}. Esto es dado a que constantemente los atacantes se ingenian nuevas formas para cometer delitos informáticos, a través de las vulnerabilidades en los sistemas que están sobre la Internet, y que las grandes compañías de seguridad, tratan de detectar - y crear una solución - lo antes posible. El fenómeno en la literatura llamado \textit{Zero-day attack} se refiere al momento clave donde un atacante explota una vulnerabilidad - hasta ese momento desconocida - de algún sistema (importante o no), y que si no es parchado lo antes posible puede comprometer no solo a sistemas, si no también a los usuarios que hacen uso de éste. Sin embargo muchas veces ocurre que aunque se corrijan estos nuevos ataques, no todos los sistemas que podrían llegar a necesitar del mismo parque para protegerse del ataque, realizan la actualización y adecuada configuración de sus sistemas para que se puedan proteger de una posible amenaza que explote la vulnerabilidad recientemente encontrada.
-
-Si bien el \textbf{Zero-day Attack} es un evento que podría no ocurrir tan repetidamente, dado que se produce por el largo estudio llevado por el atacante, sobre el sistema a vulnerar, existen otras formas de comprometer a un sistema. Muchas veces al desarrollar sistemas, se prefiere utilizar API's\footnote{Application Programming Interface} de otros sistemas para poder incluir funcionalidades ya implementadas, fomentando así el Reuso de piezas de Software. Si bien lo anterior es una buena práctica, si el sistema no cuenta con las medidas de seguridad necesarias, estas piezas podrían ser causa de amenazas de seguridad que terminarían por corromper el sistema y en consecuencia podría causar una pérdida monetaria a los \textit{Stakeholders}. Por lo mismo, lidiar con las preocupaciones de seguridad es un factor que puede ser clave para el Desarrollo de Software: Una vez que el sistema este en \textit{Deployment}, las consecuencias de no tener en cuenta la Seguridad desde el inicio del Desarrollo de Software pueden ser muy costosas \cite{cert}, incluso pudiendo afectar la Confidencialidad, Integridad y Disponibilidad de los datos de quienes lo usan \cite{interCoursera}. % buscar más citas.
-
-El problema de la mayoría del Software construído es que contiene numerosos \textbf{defectos} y \textbf{errores}, generando así \textbf{vulnerabilidades} que son encontradas y explotadas por los atacantes, de tal manera que generan el compromiso del sistema completo \cite{goertzel2007software}. Por esto mismo, es imperante que sean entendidos los Requerimientos de Seguridad del Sistema a construir desde el inicio de su construcción y que todos los involucrados también los entiendan perfectamente. La literatura que habla de la construcción de \textbf{Secure Software} o Software Seguro, indica que los practicantes del Desarrollo de Software deben entender, en gran medida, los problemas de seguridad que podrían llegar a ocurrir en sus sistemas. No basta con saber como unir las piezas, no basta con que cada pieza de por si sea segura, si los componentes del sistema no actuan de forma coordinada, probablemente éste no será seguro \cite{fernandez2013security}, dado que la seguridad es una Propiedad Sistémica que necesita ser vista de manera holística.  
-
-Un sistema seguro o \textbf{Secure Software}, no tendrá en lo posible, vulnerabilidades que puedan ser explotadas. Sin embargo, hay que tener en cuenta que dado que el Desarrollo de Software - incluso los sistemas seguros - dependen de personas, procesos, y tecnologías, será imposible tener un \(100\%\) de confiabilidad en la Seguridad implementada, pues los ``fallas humanas'' o ``descuidos humanos'' siempre existirán. Si el sistema seguro no pudiera llegar a resistir un ataque, lo primero que debe intentar es aislarse del resto y degradar con gracia, de manera que no afecte el rendimiento del sistema. Finalmente, si un ataque tuvo a lugar lo importante es que el equipo detrás del sistema no se quede inmovil, luego de recuperarse del compromiso es necesario tener inmediatamente un parche que solucione la vulnerabilidad existente. Más aún, si esta vulnerabilidad se encontrara en un componente externo o \textit{Third Party code}, el sistema que llegara a hacer uso de esa pieza de Software tiene que tener medidas para que no afecte la totalidad del sistema.
 
 
 

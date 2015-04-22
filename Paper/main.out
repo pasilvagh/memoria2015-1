@@ -1,47 +1,51 @@
 \BOOKMARK [0][-]{chapter*.1}{\315ndice general}{}% 1
 \BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 2
-\BOOKMARK [1][-]{section.1.1}{Web Browser}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.2}{Motivaci\363n: \277Por qu\351 estudiar el Browser?}{chapter.1}% 4
-\BOOKMARK [1][-]{section.1.3}{Contribuciones}{chapter.1}% 5
-\BOOKMARK [1][-]{section.1.4}{Estructura del Documento}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.5}{Definiciones B\341sicas}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.6}{Desarrollo de Software y Secure Software/Software Security}{chapter.1}% 8
-\BOOKMARK [0][-]{chapter.2}{Estado del Arte: El Web Browser}{}% 9
-\BOOKMARK [1][-]{section.2.1}{Organizaciones}{chapter.2}% 10
-\BOOKMARK [2][-]{subsection.2.1.1}{OWASP}{section.2.1}% 11
-\BOOKMARK [2][-]{subsection.2.1.2}{IEEE CSD}{section.2.1}% 12
-\BOOKMARK [2][-]{subsection.2.1.3}{W3C - World Wide Web Consortium}{section.2.1}% 13
-\BOOKMARK [1][-]{section.2.2}{Arquitectura Cliente - Servidor}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.3}{Same Origin Policy}{chapter.2}% 15
-\BOOKMARK [1][-]{section.2.4}{HTML: HyperText Markup Language}{chapter.2}% 16
-\BOOKMARK [1][-]{section.2.5}{Document Object Model, DOM}{chapter.2}% 17
-\BOOKMARK [1][-]{section.2.6}{Javascript}{chapter.2}% 18
-\BOOKMARK [1][-]{section.2.7}{Webworkers}{chapter.2}% 19
-\BOOKMARK [1][-]{section.2.8}{CORS}{chapter.2}% 20
-\BOOKMARK [1][-]{section.2.9}{HTTP}{chapter.2}% 21
-\BOOKMARK [2][-]{subsection.2.9.1}{Comunicaci\363n en HTTP}{section.2.9}% 22
-\BOOKMARK [0][-]{chapter.3}{El Web Browser}{}% 23
-\BOOKMARK [1][-]{section.3.1}{Google: Google Chrome y Google Chromium}{chapter.3}% 24
-\BOOKMARK [2][-]{subsection.3.1.1}{Safe Browsing API and Content-Agnostic Malware Prevention}{section.3.1}% 25
-\BOOKMARK [2][-]{subsection.3.1.2}{Sandboxing}{section.3.1}% 26
-\BOOKMARK [2][-]{subsection.3.1.3}{Actualizaciones Peri\363dicas}{section.3.1}% 27
-\BOOKMARK [2][-]{subsection.3.1.4}{Address Space Layout Randomization \(ASLR\)}{section.3.1}% 28
-\BOOKMARK [2][-]{subsection.3.1.5}{Privacy Settings: Do Not Track and Third-Party Cookies}{section.3.1}% 29
-\BOOKMARK [1][-]{section.3.2}{Microsoft}{chapter.3}% 30
-\BOOKMARK [2][-]{subsection.3.2.1}{SmartScreen}{section.3.2}% 31
-\BOOKMARK [2][-]{subsection.3.2.2}{App Rep}{section.3.2}% 32
-\BOOKMARK [2][-]{subsection.3.2.3}{Privacy Settings: Do Not Track and Third-Party Cookies}{section.3.2}% 33
-\BOOKMARK [1][-]{section.3.3}{Mozilla}{chapter.3}% 34
-\BOOKMARK [2][-]{subsection.3.3.1}{Componentes}{section.3.3}% 35
-\BOOKMARK [2][-]{subsection.3.3.2}{Privacy Settings: Do Not Track and Third-Party Cookies}{section.3.3}% 36
-\BOOKMARK [1][-]{section.3.4}{Evoluci\363n y Seguridad en el Browser}{chapter.3}% 37
-\BOOKMARK [0][-]{chapter.4}{Documentaci\363n Semi-Formal de la Seguridad del Web Browser}{}% 38
-\BOOKMARK [1][-]{section.4.1}{Secure Software Development y Secure Software Design}{chapter.4}% 39
-\BOOKMARK [1][-]{section.4.2}{Arquitectura de Referencia - Reference Architecture}{chapter.4}% 40
-\BOOKMARK [1][-]{section.4.3}{Security Patterns o Patrones de Seguridad}{chapter.4}% 41
-\BOOKMARK [1][-]{section.4.4}{Misuse Patterns o Patrones de Mal Uso}{chapter.4}% 42
-\BOOKMARK [0][-]{chapter.5}{Conclusiones}{}% 43
-\BOOKMARK [1][-]{section.5.1}{Conclusiones}{chapter.5}% 44
-\BOOKMARK [1][-]{section.5.2}{Trabajo Futuro}{chapter.5}% 45
-\BOOKMARK [0][-]{chapter*.6}{Bibliograf\355a}{}% 46
-\BOOKMARK [0][-]{appendix.Alph1}{Anexos}{}% 47
+\BOOKMARK [1][-]{section.1.1}{Contexto General}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Contexto General: Web Browser}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.3}{Problema: Desarrollo de Software y Seguridad}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.4}{Motivaci\363n: \277Por qu\351 estudiar el Browser?}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.5}{Contribuciones}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.6}{Metodolog\355a}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.7}{Estructura del Documento}{chapter.1}% 9
+\BOOKMARK [0][-]{chapter.2}{Framework Conceptual}{}% 10
+\BOOKMARK [1][-]{section.2.1}{Definiciones B\341sicas}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.2}{Browser}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.1}{Arquitectura Cliente/Servidor}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.2}{SOP: Same Origin Policy}{section.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.3}{Markup Languages}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.4}{CSS: Cascading Style Sheets}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.5}{DOM: Document Object Model}{section.2.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.6}{Javascript, VBScript y otros}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.7}{CORS: Cross-Origin Resource Sharing}{section.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.8}{HTTP: Hypertext Transfer Protocol}{section.2.2}% 20
+\BOOKMARK [1][-]{section.2.3}{Desarrollo de Software Seguro y Dise\361o de Software Seguro}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.4}{Arquitectura de Referencia}{chapter.2}% 22
+\BOOKMARK [1][-]{section.2.5}{Patrones}{chapter.2}% 23
+\BOOKMARK [1][-]{section.2.6}{Patrones de Seguridad}{chapter.2}% 24
+\BOOKMARK [1][-]{section.2.7}{Patrones de Mal Uso}{chapter.2}% 25
+\BOOKMARK [0][-]{chapter.3}{Estado del Arte del Browser}{}% 26
+\BOOKMARK [1][-]{section.3.1}{Navegadores Existentes}{chapter.3}% 27
+\BOOKMARK [2][-]{subsection.3.1.1}{Google Chrome y Google Chromium}{section.3.1}% 28
+\BOOKMARK [2][-]{subsection.3.1.2}{Internet Explorer}{section.3.1}% 29
+\BOOKMARK [2][-]{subsection.3.1.3}{Firefox}{section.3.1}% 30
+\BOOKMARK [1][-]{section.3.2}{Evoluci\363n y Seguridad en el Browser}{chapter.3}% 31
+\BOOKMARK [2][-]{subsection.3.2.1}{Estandarizaciones}{section.3.2}% 32
+\BOOKMARK [2][-]{subsection.3.2.2}{Vulnerabilidades}{section.3.2}% 33
+\BOOKMARK [2][-]{subsection.3.2.3}{Amenazas}{section.3.2}% 34
+\BOOKMARK [2][-]{subsection.3.2.4}{Medidas de Mitigaci\363n o Mecanismos de Defensa}{section.3.2}% 35
+\BOOKMARK [1][-]{section.3.3}{Arquitectura de Referencia del Browser y Patrones}{chapter.3}% 36
+\BOOKMARK [1][-]{section.3.4}{Sumario}{chapter.3}% 37
+\BOOKMARK [0][-]{chapter.4}{Arquitectura de Referencia del Browser}{}% 38
+\BOOKMARK [1][-]{section.4.1}{Casos de Uso de Browser}{chapter.4}% 39
+\BOOKMARK [2][-]{subsection.4.1.1}{Stakeholders \(actores\) y Concerns de estos}{section.4.1}% 40
+\BOOKMARK [2][-]{subsection.4.1.2}{Casos de Uso}{section.4.1}% 41
+\BOOKMARK [1][-]{section.4.2}{Patr\363n Browser}{chapter.4}% 42
+\BOOKMARK [0][-]{chapter.5}{Patrones de Mal Uso}{}% 43
+\BOOKMARK [1][-]{section.5.1}{Identificando Amenazas}{chapter.5}% 44
+\BOOKMARK [1][-]{section.5.2}{Template de Patrones de Mal Uso}{chapter.5}% 45
+\BOOKMARK [0][-]{chapter.6}{Discusi\363n}{}% 46
+\BOOKMARK [0][-]{chapter.7}{Conclusiones}{}% 47
+\BOOKMARK [1][-]{section.7.1}{Contribuciones}{chapter.7}% 48
+\BOOKMARK [1][-]{section.7.2}{Trabajo Futuro}{chapter.7}% 49
+\BOOKMARK [0][-]{chapter*.11}{Bibliograf\355a}{}% 50
+\BOOKMARK [0][-]{appendix.Alph1}{Anexos}{}% 51

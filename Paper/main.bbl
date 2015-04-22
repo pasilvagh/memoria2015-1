@@ -1,22 +1,32 @@
 \begin{thebibliography}{10}
 
+\bibitem{cert}
+Carnegie Mellon~University Computer Emergency Response~Team.
+\newblock Early identification reduces total cost (segment from cert's podcasts
+  for bussiness leaders).
+
+\bibitem{interCoursera}
+Mike Hicks.
+\newblock Interview to \textbf{Kevin Haley} (from \textbf{Symantec}), 2014.
+\newblock Mike Hicks (Profesor of Software Security course in Coursera.org).
+
 \bibitem{goertzel2007software}
 Karen~M Goertzel, Theodore Winograd, Holly~L McKinley, Lyndon~J Oh, Michael
   Colon, Thomas McGibbon, Elaine Fedchak, and Robert Vienneau.
 \newblock Software security assurance: A state-of-art report (sar).
 \newblock Technical report, DTIC Document, 2007.
 
-\bibitem{braz2008eliciting}
-Fabricio~A Braz, Eduardo~B Fernandez, and Michael VanHilst.
-\newblock Eliciting security requirements through misuse activities.
-\newblock In {\em Database and Expert Systems Application, 2008. DEXA'08. 19th
-  International Workshop on}, pages 328--333. IEEE, 2008.
-
 \bibitem{fernandez2013security}
 Eduardo Fernandez-Buglioni.
 \newblock {\em Security patterns in practice: designing secure architectures
   using software patterns}.
 \newblock John Wiley \& Sons, 2013.
+
+\bibitem{braz2008eliciting}
+Fabricio~A Braz, Eduardo~B Fernandez, and Michael VanHilst.
+\newblock Eliciting security requirements through misuse activities.
+\newblock In {\em Database and Expert Systems Application, 2008. DEXA'08. 19th
+  International Workshop on}, pages 328--333. IEEE, 2008.
 
 \bibitem{ieeecsd2}
 IEEE~Cyber Security.
@@ -29,20 +39,6 @@ The~MITRE Coporation.
 \bibitem{socEngineeering}
 Jeremiah Talamantes.
 \newblock The social engineer's playbook.
-
-\bibitem{cert}
-Carnegie Mellon~University Computer Emergency Response~Team.
-\newblock Early identification reduces total cost (segment from cert's podcasts
-  for bussiness leaders).
-
-\bibitem{interCoursera}
-Mike Hicks.
-\newblock Interview to \textbf{Kevin Haley} (from \textbf{Symantec}), 2014.
-\newblock Mike Hicks (Profesor of Software Security course in Coursera.org).
-
-\bibitem{ieeecsd1}
-IEEE~Cyber Security.
-\newblock Ieee cyber security y center for secure design.
 
 \bibitem{alcorn2014browser}
 Wade Alcorn, Christian Frichot, and Michele Orr{\`u}.
@@ -74,22 +70,6 @@ Adam Barth, Collin Jackson, and William Li.
 Bryan Sullivan and Vincent Liu.
 \newblock {\em Web application security}.
 \newblock McGraw-Hill, 2012.
-
-\bibitem{multiProcArchG}
-Google Chromium.
-\newblock Multi-process architecture.
-
-\bibitem{barth2008security}
-Adam Barth, Collin Jackson, Charles Reis, TGC Team, et~al.
-\newblock The security architecture of the chromium browser, 2008.
-
-\bibitem{reis2009browser}
-Charles Reis, Adam Barth, and Carlos Pizano.
-\newblock Browser security: lessons from google chrome.
-\newblock {\em Queue}, 7(5):3, 2009.
-
-\bibitem{webpag3}
-Internet~Explorer Architecture.
 
 \bibitem{openSecArch}
 Open~Security Architecture.
@@ -165,5 +145,21 @@ Ali Alkazami and Eduardo~B Fernandez.
 \bibitem{encinamisuse}
 Oscar Encina, Eduardo~B Fernandez, and Ra{\'u}l Monge.
 \newblock A misuse pattern for denial-of-service in federated inter-clouds.
+
+\bibitem{multiProcArchG}
+Google Chromium.
+\newblock Multi-process architecture.
+
+\bibitem{barth2008security}
+Adam Barth, Collin Jackson, Charles Reis, TGC Team, et~al.
+\newblock The security architecture of the chromium browser, 2008.
+
+\bibitem{reis2009browser}
+Charles Reis, Adam Barth, and Carlos Pizano.
+\newblock Browser security: lessons from google chrome.
+\newblock {\em Queue}, 7(5):3, 2009.
+
+\bibitem{webpag3}
+Internet~Explorer Architecture.
 
 \end{thebibliography}
