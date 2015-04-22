@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{goertzel2007software}
+Karen~M Goertzel, Theodore Winograd, Holly~L McKinley, Lyndon~J Oh, Michael
+  Colon, Thomas McGibbon, Elaine Fedchak, and Robert Vienneau.
+\newblock Software security assurance: A state-of-art report (sar).
+\newblock Technical report, DTIC Document, 2007.
+
 \bibitem{cert}
 Carnegie Mellon~University Computer Emergency Response~Team.
 \newblock Early identification reduces total cost (segment from cert's podcasts
@@ -9,12 +15,6 @@ Carnegie Mellon~University Computer Emergency Response~Team.
 Mike Hicks.
 \newblock Interview to \textbf{Kevin Haley} (from \textbf{Symantec}), 2014.
 \newblock Mike Hicks (Profesor of Software Security course in Coursera.org).
-
-\bibitem{goertzel2007software}
-Karen~M Goertzel, Theodore Winograd, Holly~L McKinley, Lyndon~J Oh, Michael
-  Colon, Thomas McGibbon, Elaine Fedchak, and Robert Vienneau.
-\newblock Software security assurance: A state-of-art report (sar).
-\newblock Technical report, DTIC Document, 2007.
 
 \bibitem{fernandez2013security}
 Eduardo Fernandez-Buglioni.
@@ -27,6 +27,11 @@ Fabricio~A Braz, Eduardo~B Fernandez, and Michael VanHilst.
 \newblock Eliciting security requirements through misuse activities.
 \newblock In {\em Database and Expert Systems Application, 2008. DEXA'08. 19th
   International Workshop on}, pages 328--333. IEEE, 2008.
+
+\bibitem{buschman1996system}
+Frank Buschman, Regine Meunier, Hans Rohnert, Peter Sommerlad, and Michael
+  Stal.
+\newblock A system of patterns: pattern-oriented software architecture, 1996.
 
 \bibitem{ieeecsd2}
 IEEE~Cyber Security.
@@ -74,6 +79,12 @@ Bryan Sullivan and Vincent Liu.
 \bibitem{openSecArch}
 Open~Security Architecture.
 \newblock Definitions by osa.
+
+\bibitem{Avgeriou2003}
+Paris Avgeriou.
+\newblock {Describing, Instantiating and Evaluating a Reference Architecture: A
+  Case Study}.
+\newblock {\em Enterprise Architect Journal}, 342(1):347, 2003.
 
 \bibitem{fernandez2006defining}
 Eduardo~B Fernandez, Michael VanHilst, Maria M~Larrondo Petrie, and Shihong

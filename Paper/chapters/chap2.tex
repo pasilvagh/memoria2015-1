@@ -97,15 +97,14 @@ Para empezar este estudio es necesario introducir ciertas nociones y lenguaje qu
         \item SOP para Flash, donde usa políticas para realizar peticiones fuera del dominio através de un archivo \textbf{crossdomain.xml}
         \item SOP para Java
         \item SOP para Silverlight, parecido al de Flash solo qe utiliza otros elementos.
-        \item 
     \end{itemize}
 
         
-    Para algunos SOP puede ser un tanto molesto, tanto para los atacantes como los desarrolladores de aplicaciones. Para el primero, la respuesta es obvia, pero para el segundo está el problema de ¿cómo poder aislar los componentes no confiables o parcialmente confiables, mientras que al mismo tiempo se pueda tener una comunicación entre ellos de forma segura? Ejemplo de esto son los Mashup \cite{barth2009securing}, que permiten juntar contenido de terceros en una misma página por medio de frames, etc. 
+   Tanto para los atacantes como desarrolladores de Software, SOP puede llegar a ser bastante molesto. Para el primero, la respuesta es obvia, pero para el segundo está el problema de ¿cómo poder aislar los componentes no confiables o parcialmente confiables, mientras que al mismo tiempo se pueda tener una comunicación entre ellos de forma segura? Ejemplo de esto son los Mashup \cite{barth2009securing}, que permiten juntar contenido de terceros en una misma página por medio de frames, etc. 
         
     Existen excepciones que permiten evitar el uso de SOP, pero como es de esperar esta vía puede ser mal usada por los atacantes en contra del usuario y de la Aplicación Web. Dentro de las excepciones están los elementos en HTML \(<\) script \(>\), \(<\)img\(>\), \(<\)iframe\(>\) y otros, que si bien permiten la comunicación entre diferentes orígenes, un mal uso de este puede causar grandes estragos, desde la eliminación de registros en una base de datos hasta la propagación de un gusano o virus.
         
-    Queda decir que si bien SOP entrega una capa de seguridad al usuario y a la Aplicación Web contra cierto tipo de ataques (ataques de principiantes), esto no es suficiente. Es responsabilidad del desarrollador de Software poseer las herramientas necesarias para asegurar la confidencialidad e integridad del sistema a través de otros métodos de seguridad.
+    Queda decir que si bien SOP entrega una capa de seguridad al usuario y a la Aplicación Web, contra cierto tipo de ataques (muchas veces del tipo de ataques de principiantes), esto no es suficiente. Es responsabilidad del desarrollador de Software poseer las herramientas necesarias para asegurar la confidencialidad e integridad del sistema a través de otros métodos de seguridad.
     
 
     %Ver libro de Browser hacker handbook
@@ -177,17 +176,17 @@ Para empezar este estudio es necesario introducir ciertas nociones y lenguaje qu
         \label{chap2:headers}
         HTTP es la implementación de la capa de aplicacón del modelo OSI que sigue todo dispositivo que desea conectarse a la Internet. Los headers o cabeceras que utiliza este protocolo permiten configurar la comunicación entre un \textit{Web Server} y un cliente web, en este caso con el Browser. Estos headers indican \textbf{dónde} debe ir el mensaje y \textbf{cómo} deben ser manejados los contenidos del mensaje. En cada petición o \textit{request} del Navegador, éste debe especificarlos para que el servidor pueda enteder las peticiones; de la misma manera, el servidor enviará cabeceras que el cliente también debe entender. Algunos \textit{headers} son necesarios y hasta obligatorios, para algunos servidores, y en otros da lo mismo como vayan.
 
+
         \subsubsection{Canales de comunicación en HTTP}
         \label{chap2:comunHTTP}
+        \begin{enumerate}
+            \item postMessage
 
-        \subsubsection{postMessage}
-        \label{chap2:postmessage}
+            \item XHR: XMLHttpRequest
 
-        \subsubsection{XHR: XMLHttpRequest}
-        \label{chap2:XMLHR}
+            \item WebSockets
+        \end{enumerate}
 
-        \subsubsection{WebSockets}
-        \label{chap2:WebSockets}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -204,14 +203,12 @@ Fernandez \cite{fernandez2013security} sostiene que para construir un sistema se
 Como parte de la metodología propuesta, se plantea que para diseñar primero se deben entender las posibles amenazas a las que está expuesto el sistema. La identificación de Amenazas [Bra08a] [Fer06c] es la primera tarea que presenta la metodología, que considera las actividades en cada caso de uso del sistema.
 
 
-\section{Arquitectura de Referencia}
+\section{Arquitectura de Referencia o Reference Architecture (RA)}
 \label{chap2:ArqRef}
 %usar \cite{Avgeriou2003}
 
-Una arquitectura de Referencia, de acuerdo a la \textit{Open Security Architecture} o OSA\cite{openSecArch}, es considerado un elemento que describe un \textbf{estado de ser} y debe representar aceptadas buenas practicas. 
-%Buscar si existe una definición para el caso de Secure Software Desing Community
+Una arquitectura de Referencia, de acuerdo a la \textit{Open Security Architecture} o OSA\cite{openSecArch}, es considerado un elemento que describe un \textbf{estado de ser} y debe representar aceptadas buenas practicas. En \cite{Avgeriou2003} se explica que una RA es una arquitectura de software genérica y estandarizada, para un dominio particular e independiente de la plataforma o detalles de implementación. Lo que debe incluir son los componentes principales y fundamentales del sistema, más la interacción entre éstas unidades. Una RA es una herramienta que permite facilitar el entendimiento de sistemas complejos y su apropiada construcción a sistemas reales. Si bien una RA es usada principalmente para capturar los \textit{concerns} de los \textit{Stakeholders} al comienzo de un Desarrollo de Software, también puede ser usada para educar al realizar la unión de ideas y terminologías usadas por diversos sistemas que se asemejen, sin tener que preocuparme de los detalles de implementación.
 
-En este trabajo lo que se pretende hacer con la Arquitectura de Referencia, es dar a entender los componentes y elementos que la mayoría de los Web Browser tienen. Se sabe que el Browser es un pieza de Software que ha sufrido varios cambios desde 1990, por lo tanto entre los desarrolladores de ésta herramienta ya existen conveniones de qué elementos funcionan mejor. Por consiguiente, no es de extrañar que diferentes browsers estén construidos de formas muy similares, incluso existan ciertos \textbf{patrones} que pueden explayarse de buena manera mediante una Arquitectura de Referencia, que manifeste los componentes, mecanismos de comunicación, funcionamientos, etc.
 
 \section{Patrones}
 \label{chap2:Patt}
