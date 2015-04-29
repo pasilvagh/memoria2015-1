@@ -80,9 +80,41 @@
 
 
 
+
+\section{Arquitectura de Referencia del Browser y Patrones}
+\label{chap3:ArqRefBrowandPatt}
+%Referirme a los artículos que hayan realizado antes el trabajo
+%usar: 2005-grosskurth-browser-refarch, preprint-grosskurth-browser-archevol, webpag3 (IE), reis2009isolating
+
+%Decir: "este trabajo es basado en la metodología de Fernandez \cite{Hashizume2014Reference} usando patrones en la construcción de la arquitectura de referencia"
+
+La arquitectura de referencia a construir en este trabajo tiene como objetivo catalizar el entendimiento de la estrecha relación que existe entre el \cite{Web Browser} y los sistemas que serían construídos sobre la Internet. Éstas relaciones entre las dos entidades pueden llegar a ser bien importantes en los desarrollos de Software, pues puede explicar los posibles problemas que indirectamente sufre; considerar al Web browser como un \textit{concern} en el desarrollo de SW puede ser una buena estrategia para evitar una gran perdida monetaria u organizacional. Se sabe que el Browser es un pieza de Software que ha sufrido varios cambios desde la década de los 90, por lo tanto entre los desarrolladores de ésta herramienta ya existen conveniones de qué elementos funcionan mejor. Por consiguiente, no es de extrañar que diferentes browsers estén construidos de formas muy similares, y en consecuencia puedan ser conceptualizados en una Arquitectura de Referencia que manifeste los componentes, mecanismos de comunicación y funciones de esta pieza de Software.
+
+El primer paso para realizar el estado del arte con respecto a este punto fue realizar una búsqueda ordenada y a través de string de búsqueda dentro de web engines y librerías digitales conocidas. Se utilizaron las siguientes plataformas para buscar documentación al respecto:
+\begin{itemize}
+    \item Google, usando ``google dorks'' para filtrar resultados
+    \item Google Scholar, usando string de búsqueda y operadores booleanos para filtrar resultados.
+    \item IEEE Xplore Digital Library, usando su buscador basado en comandos y utilizando operadores booleanos para filtrar (de buscó tanto en metadata como en el texto completo).
+    \item Direct Science, CiteSeerX, Springer Link y otras librerías digitales. 
+\end{itemize}
+
+Para aquellos buscadores donde era posible usar operadores booleanos también se trató de filtrar el contenido para que pudiera mostrar resultados relacionados a: ``Browser'' y ``Reference Architecture''.
+
+Sin embargo los resultados fueron bastante pobres. Desafortunadamente hasta la fecha no existe mucho trabajo relacionado a la construcción de una Arquitectura de Referencia para el Browser. Si bien existe un trabajo en concreto donde se plantea una Arquitectura de Referencia como el de \cite{2005-grosskurth-browser-refarch}, no se ha podido encontrar otros similiares. 
+
+
+En el trabajo de \cite{2005-grosskurth-browser-refarch} se entrega la arquitectura de Referencia basada en el descubrimiento de las Arquitecturas concretas de los browser usados a través de herramientas de Ingeniería Inversa \textit{Reverse Engineering}. Sin embargo lo que relatan en el trabajo es algo que ya está muy desactualizado para los browsers modernos. 
+
+En \cite{preprint-grosskurth-browser-archevol} se realiza una actualización del trabajo (un año después) pero enfocada a descubrir más arquitecturas concretas de otros web browser conocidos, en especial aquellos Open Source como: Konqueror, Lynx, Firefox, entre otros.
+
+
 \section{Evolución y Seguridad en el Browser}
 \label{chap3:EvoandSec}
 %Usar referencias varga2013evolution, EvoBrowSecNSS, browSecPhish, browSecPrivSett, rowSecSEMBlock, silic2010security, barth2008security, reis2009browser, reis2009isolating, barth2009securing, barth2010protecting, Carlini12, liu2012chrome, utakrit2009review, barth2009secure, Accuvant11, Li12, Yu07, Zalewsk08, alcorn2014browser, sansInstInfoSec, 
+% evolucion de la web: http://www.evolutionoftheweb.com/ (infografía)
+
+En \cite{2005-grosskurth-browser-refarch} y \cite{preprint-grosskurth-browser-archevol} podemos notar que existe una mayor importancia en llegar a los componentes y las relaciones detrás del browser, y casi una nula mención de elementos de seguridad que permiten salvaguardar datos críticos o cómo protege al host de las amenazas. Podemos dar esta falta de conocimiento dado que en tales fehcas la cantidad de ataques de seguridad al Browser es mucho menos que en la actualidad %poner referencia.
+
 
 \subsection{Estandarizaciones}
 \label{chap3:Standars}
@@ -134,14 +166,6 @@
     \end{enumerate}
 
 
-\section{Arquitectura de Referencia del Browser y Patrones}
-\label{chap3:ArqRefBrowandPatt}
-%Referirme a los artículos que hayan realizado antes el trabajo
-%usar: grosskurth2005, webpag3 (IE), reis2009isolating
-
-%Decir: "este trabajo es basado en la metodología de Fernandez \cite{Hashizume2014Reference} usando patrones en la construcción de la arquitectura de referencia"
-
-Para este trabajo la arquitectura de referencia a construir, tiene como objetivo catalizar el entendimiento de la símbiosis existente entre el \cite{Web Browser} y los sistemas que serían construídos sobre la Internet, dado que la mayoría de los desarrollos de Software no consideran ésta situación como un posible \textit{concern} hasta que el sistema falla. Se sabe que el Browser es un pieza de Software que ha sufrido varios cambios desde 1990, por lo tanto entre los desarrolladores de ésta herramienta ya existen conveniones de qué elementos funcionan mejor. Por consiguiente, no es de extrañar que diferentes browsers estén construidos de formas muy similares, incluso existan ciertos \textbf{patrones} que pueden explayarse de buena manera mediante una Arquitectura de Referencia, que manifeste los componentes, mecanismos de comunicación y funciones.
 
 
 \section{Sumario}
