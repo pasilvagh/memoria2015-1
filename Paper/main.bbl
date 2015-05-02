@@ -22,6 +22,31 @@ Eduardo Fernandez-Buglioni.
   using software patterns}.
 \newblock John Wiley \& Sons, 2013.
 
+\bibitem{2005-grosskurth-browser-refarch}
+Alan Grosskurth and Michael~W. Godfrey.
+\newblock A reference architecture for web browsers.
+\newblock pages 661--664, 2005.
+\newblock URL: {\tt http://grosskurth.ca/papers.html\#browser-refarch}.
+
+\bibitem{preprint-grosskurth-browser-archevol}
+Alan Grosskurth and Michael~W. Godfrey.
+\newblock {Architecture and evolution of the modern web browser}.
+\newblock URL: {\tt http://grosskurth.ca/papers.html\#browser-archevol}. Note:
+  submitted for publication.
+
+\bibitem{fernandez2004methodology}
+Eduardo~B Fernandez.
+\newblock A methodology for secure software design.
+\newblock In {\em Software Engineering Research and Practice}, pages 130--136,
+  2004.
+
+\bibitem{fernandez2006defining}
+Eduardo~B Fernandez, Michael VanHilst, Maria M~Larrondo Petrie, and Shihong
+  Huang.
+\newblock Defining security requirements through misuse actions.
+\newblock In {\em Advanced Software Engineering: Expanding the Frontiers of
+  Software Technology}, pages 123--137. Springer US, 2006.
+
 \bibitem{braz2008eliciting}
 Fabricio~A Braz, Eduardo~B Fernandez, and Michael VanHilst.
 \newblock Eliciting security requirements through misuse activities.
@@ -87,13 +112,6 @@ Paris Avgeriou.
 \newblock {Describing, Instantiating and Evaluating a Reference Architecture: A
   Case Study}.
 \newblock {\em Enterprise Architect Journal}, 342(1):347, 2003.
-
-\bibitem{fernandez2006defining}
-Eduardo~B Fernandez, Michael VanHilst, Maria M~Larrondo Petrie, and Shihong
-  Huang.
-\newblock Defining security requirements through misuse actions.
-\newblock In {\em Advanced Software Engineering: Expanding the Frontiers of
-  Software Technology}, pages 123--137. Springer US, 2006.
 
 \bibitem{fernandez2007attack}
 Eduardo Fernandez, Juan Pelaez, and Maria Larrondo-Petrie.
@@ -183,17 +201,5 @@ Charles Reis, Adam Barth, and Carlos Pizano.
 
 \bibitem{IEArch}
 Internet~Explorer Architecture.
-
-\bibitem{2005-grosskurth-browser-refarch}
-Alan Grosskurth and Michael~W. Godfrey.
-\newblock A reference architecture for web browsers.
-\newblock pages 661--664, 2005.
-\newblock URL: {\tt http://grosskurth.ca/papers.html\#browser-refarch}.
-
-\bibitem{preprint-grosskurth-browser-archevol}
-Alan Grosskurth and Michael~W. Godfrey.
-\newblock {Architecture and evolution of the modern web browser}.
-\newblock URL: {\tt http://grosskurth.ca/papers.html\#browser-archevol}. Note:
-  submitted for publication.
 
 \end{thebibliography}
