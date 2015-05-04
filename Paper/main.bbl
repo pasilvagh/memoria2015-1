@@ -6,6 +6,17 @@ Karen~M Goertzel, Theodore Winograd, Holly~L McKinley, Lyndon~J Oh, Michael
 \newblock Software security assurance: A state-of-art report (sar).
 \newblock Technical report, DTIC Document, 2007.
 
+\bibitem{Yoder1998}
+J.~Yoder, J.~Yoder, J.~Barcalow, and J.~Barcalow.
+\newblock {Architectural patterns for enabling application security}.
+\newblock {\em Proceedings of PLoP 1997}, 51:31, 1998.
+
+\bibitem{fernandez2004methodology}
+Eduardo~B Fernandez.
+\newblock A methodology for secure software design.
+\newblock In {\em Software Engineering Research and Practice}, pages 130--136,
+  2004.
+
 \bibitem{cert}
 Carnegie Mellon~University Computer Emergency Response~Team.
 \newblock Early identification reduces total cost (segment from cert's podcasts
@@ -22,6 +33,12 @@ Eduardo Fernandez-Buglioni.
   using software patterns}.
 \newblock John Wiley \& Sons, 2013.
 
+\bibitem{535061}
+M.M. Larrondo-Petrie, K.R. Nair, and G.K. Raghavan.
+\newblock A domain analysis of web browser architectures, languages and
+  features.
+\newblock In {\em Southcon/96. Conference Record}, pages 168--174, Jun 1996.
+
 \bibitem{2005-grosskurth-browser-refarch}
 Alan Grosskurth and Michael~W. Godfrey.
 \newblock A reference architecture for web browsers.
@@ -33,12 +50,6 @@ Alan Grosskurth and Michael~W. Godfrey.
 \newblock {Architecture and evolution of the modern web browser}.
 \newblock URL: {\tt http://grosskurth.ca/papers.html\#browser-archevol}. Note:
   submitted for publication.
-
-\bibitem{fernandez2004methodology}
-Eduardo~B Fernandez.
-\newblock A methodology for secure software design.
-\newblock In {\em Software Engineering Research and Practice}, pages 130--136,
-  2004.
 
 \bibitem{fernandez2006defining}
 Eduardo~B Fernandez, Michael VanHilst, Maria M~Larrondo Petrie, and Shihong
@@ -113,6 +124,27 @@ Paris Avgeriou.
   Case Study}.
 \newblock {\em Enterprise Architect Journal}, 342(1):347, 2003.
 
+\bibitem{Bass2012}
+Len Bass, Paul Clements, and Rick Kazman.
+\newblock {\em Software Architecture in Practice}.
+\newblock Addison-Wesley Professional, 3rd edition, 2012.
+
+\bibitem{Hashizume2014Reference}
+Keiko Hashizume, Eduardo~B Fernandez, and Maria~M Larrondo-petrie.
+\newblock {A reference architecturefor cloud computing. Submitted for
+  publication.}
+\newblock 2014.
+
+\bibitem{Submitted2014}
+Oscar Encina.
+\newblock {Towards a Security Reference Architecture for Federated Inter-Cloud
+  Systems}.
+\newblock 2014.
+
+\bibitem{statBrow}
+Global~Stats StatCounter.
+\newblock Top 5 desktop, tablet and console browsers, 2015.
+
 \bibitem{fernandez2007attack}
 Eduardo Fernandez, Juan Pelaez, and Maria Larrondo-Petrie.
 \newblock Attack patterns: A new forensic and design tool.
@@ -182,10 +214,6 @@ Oscar Encina, Eduardo~B Fernandez, and Ra{\'u}l Monge.
 Google Team.
 \newblock Evolution of the web.
 
-\bibitem{statBrow}
-Global~Stats StatCounter.
-\newblock Top 5 desktop, tablet and console browsers, 2015.
-
 \bibitem{multiProcArchG}
 Google Chromium.
 \newblock Multi-process architecture.
@@ -201,5 +229,24 @@ Charles Reis, Adam Barth, and Carlos Pizano.
 
 \bibitem{IEArch}
 Internet~Explorer Architecture.
+
+\bibitem{Crowley2010}
+Matthew Crowley.
+\newblock {\em {Pro Internet Explorer 8 \& 9 Development: Developing Powerful
+  Applications for The Next Generation of IE}}.
+\newblock Apress, Berkely, CA, USA, 1st edition, 2010.
+
+\bibitem{Godfrey2000}
+Michael~W Godfrey and Eric H~S Lee.
+\newblock {Secrets from the Monster: Extracting Mozilla's Software
+  Architecture}.
+\newblock {\em In Proc. of 2000 Intl. Symposium on Constructing software
+  engineering tools (CoSET 2000}, pages 15--23, 2000.
+
+\bibitem{Lwin2009}
+N.N.Z. Lwin.
+\newblock {Agent Based Web Browser}.
+\newblock {\em 2009 Fifth International Conference on Autonomic and Autonomous
+  Systems}, 2009.
 
 \end{thebibliography}
