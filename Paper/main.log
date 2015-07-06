@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.4.28)  12 MAY 2015 01:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.4.28)  6 JUL 2015 09:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main
+**main.tex
 (./main.tex
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
@@ -2957,7 +2957,7 @@ Here is how much of TeX's memory you used:
  13319 multiletter control sequences out of 15000+600000
  23154 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 31i,12n,49p,1664b,679s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 31i,12n,49p,1668b,679s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/
@@ -2974,7 +2974,7 @@ lic/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm248
 8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/te
 xmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texmf/fonts/type1/publ
 ic/cm-super/sfxc1200.pfb>
-Output written on main.pdf (55 pages, 1046611 bytes).
+Output written on main.pdf (55 pages, 1046776 bytes).
 PDF statistics:
  849 PDF objects out of 1000 (max. 8388607)
  759 compressed objects within 8 object streams
